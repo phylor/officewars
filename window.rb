@@ -20,12 +20,27 @@ class OfficeWarsWindow < Gosu::Window
     
     @player_sprites = Gosu::Image.load_tiles('assets/player_tilesheet.png', 80, 115)
     @player_moving = false
+    @player_x = 45
+    @player_y = -15
+    @player_x_offset = -5
+    @player_y_offset = 65
+
+    create_map
   end
 
   def needs_cursor?; true; end
 
   def update
-
+    if @player_moving
+      @player_x += 0.75 * abs_norm(@player_target[0] - @player_x + @player_x_offset)
+      @player_y += 0.75 * abs_norm(@player_target[1] - @player_y + @player_y_offset)
+    end
+  end
+  
+  def abs_norm(number)
+    return 1 if number.positive?
+    return -1 if number.negative?
+    0
   end
 
   def draw
@@ -58,7 +73,8 @@ class OfficeWarsWindow < Gosu::Window
         end
       when :practice
         move_player
-        @player_target = [mouse_x, mouse_y]
+        hexagon_target = to_hexagon(mouse_x, mouse_y)
+        @player_target = [hexagon_target[0] - @player_x_offset, hexagon_target[1] - @player_y_offset]
       end
     when char_to_button_id('q')
       exit
@@ -71,19 +87,42 @@ class OfficeWarsWindow < Gosu::Window
     draw_rect(0, 0, @width, @height, Gosu::Color.new(238, 231, 205))
   end
 
+  def create_map
+    width = 65
+    height = 89
+    vertical_offset = 50
+
+    @map = []
+
+    4.times do |row|
+      @map <<
+        (0..3).map do |time|
+          [
+            [50 + time * 2 * width, 50 + row * height],
+            [50 + time * 2 * width + width, 50 + row * height]
+          ]
+        end.flatten(1)
+      @map << (0..3).map do |time|
+        [
+          [50 + width / 2 + time * 2 * width, 50 + row * height + vertical_offset],
+          [50 + width / 2 + time * 2 * width + width, 50 + row * height + vertical_offset]
+        ]
+      end.flatten(1)
+    end
+  end
+
   def draw_map
     width = 65
     height = 89
     vertical_offset = 50
 
-    4.times do |row|
-      4.times do |time|
-        draw_tile(50 + time * 2 * width, 50 + row * height, @stone, @highlight)
-        draw_tile(50 + time * 2 * width + width, 50 + row * height, @stone_alternate, @highlight)
-      end
-      4.times do |time|
-        draw_tile(50 + width / 2 + time * 2 * width, 50 + row * height + vertical_offset, @stone, @highlight)
-        draw_tile(50 + width / 2 + time * 2 * width + width, 50 + row * height + vertical_offset, @sand, @highlight)
+    @map.each.with_index do |row, row_index|
+      row.each.with_index do |hexagon, column_index|
+        if @selected_hexagon == [column_index, row_index]
+          @highlight.draw(hexagon[0], hexagon[1], 1)
+        else
+          @stone.draw(hexagon[0], hexagon[1], 1)
+        end
       end
     end
   end
@@ -96,33 +135,35 @@ class OfficeWarsWindow < Gosu::Window
                @player_sprites[0]
              end
 
-    sprite.draw(45, -15, 2)
+    sprite.draw(@player_x, @player_y, 2)
   end
 
   def move_player
     @player_moving = true
   end
 
-  def draw_tile(x, y, normal, highlighted)
-    return normal.draw(x, y, 1) if @player_target.nil?
-
-    if inside_hexagon?(x, y, 65 / 2, 50 / 2)
-      highlighted.draw(x, y, 1)
-    else
-      normal.draw(x, y, 1)
-    end
-  end
-
-  def inside_hexagon?(hexagon_x, hexagon_y, hexagon_width, hexagon_height)
+  def inside_hexagon?(x, y, hexagon_x, hexagon_y, hexagon_width, hexagon_height)
     # http://www.playchilla.com/how-to-check-if-a-point-is-inside-a-hexagon
     hexagon_center_x = hexagon_x + hexagon_width
     hexagon_center_y = hexagon_y + hexagon_height
-    q2x = (@player_target[0] - hexagon_center_x).abs
-    q2y = (@player_target[1] - hexagon_center_y).abs
+    q2x = (x - hexagon_center_x).abs
+    q2y = (y - hexagon_center_y).abs
 
     return false if q2x > hexagon_width / 2 || q2y > hexagon_height * 2
 
     2 * hexagon_height * hexagon_width - hexagon_height * q2x - hexagon_width * q2y >= 0
+  end
+
+  def to_hexagon(x, y)
+    @map.each.with_index do |row, row_index|
+      row.each.with_index do |hexagon, column_index|
+        if inside_hexagon?(x, y, hexagon[0], hexagon[1], 65 / 2, 50 / 2)
+          puts "Clicked on hexagon #{[column_index, row_index]}"
+          @selected_hexagon = [column_index, row_index]
+          return [hexagon[0], hexagon[1]]
+        end
+      end
+    end
   end
 end
 
