@@ -49,6 +49,10 @@ class Player
     Utils.draw_box(@x + @x_offset, @y + @y_offset, 80, 115, Gosu::Color::RED, 2) if DEBUG
   end
 
+  def next_round
+    @energy = @max_energy
+  end
+
   private
 
   def draw_energy_bar
