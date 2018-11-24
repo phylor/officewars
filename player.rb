@@ -3,11 +3,11 @@ require_relative 'utils'
 class Player
   attr_reader :x, :y
 
-  def initialize
-    @sprites = Gosu::Image.load_tiles('assets/player_tilesheet.png', 80, 115)
+  def initialize(spritesheet: 'assets/player_tilesheet.png', x: 50, y: 50)
+    @sprites = Gosu::Image.load_tiles(spritesheet, 80, 115)
     @moving = false
-    @x = 50
-    @y = 50
+    @x = x
+    @y = y
     @x_offset = -10
     @y_offset = -65
     @max_energy = 3

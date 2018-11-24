@@ -17,9 +17,10 @@ class OfficeWarsWindow < Gosu::Window
     @state = :menu
 
     @player = Player.new
+    @enemy = Player.new(spritesheet: 'assets/enemy.png', x: 50 + 5 * 65, y: 50)
     @map = Map.new
 
-    @end_round_button = Ui.new(self, @width - 150, @height - 50, 150, 50)
+    @end_round_button = Ui.new(self, @width - 173, @height - 52, 150, 50)
   end
 
   def needs_cursor?; true; end
@@ -40,8 +41,9 @@ class OfficeWarsWindow < Gosu::Window
     when :practice
       @map.draw
       @player.draw
+      @enemy.draw
       @end_round_button.vertical do |layout|
-        layout.button('End round', text_offset: 10)
+        layout.button('End round', text_offset: 20)
       end
     end
   end
