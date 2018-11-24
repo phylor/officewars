@@ -1,6 +1,8 @@
 require_relative 'utils'
 
 class Player
+  attr_reader :x, :y
+
   def initialize
     @sprites = Gosu::Image.load_tiles('assets/player_tilesheet.png', 80, 115)
     @moving = false

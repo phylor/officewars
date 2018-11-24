@@ -28,6 +28,24 @@ class Map
     @selected_hexagon = to_hexagon(x, y)
   end
 
+  def distance_to_selected(indices)
+    return -1 unless selected_hexagon
+
+    return (selected_hexagon[:indices][0] - indices[0]).abs + (selected_hexagon[:indices][1] - indices[1]).abs
+  end
+
+  def to_hexagon(x, y)
+    @map.each.with_index do |row, row_index|
+      row.each.with_index do |hexagon, column_index|
+        if inside_hexagon?(x, y, hexagon[0], hexagon[1], 65 / 2, 50 / 2)
+          return { position: hexagon, indices: [column_index, row_index] }
+        end
+      end
+    end
+
+    nil
+  end
+
   private
 
   def create_map
@@ -60,17 +78,5 @@ class Map
     return false if q2x > hexagon_width / 2 || q2y > hexagon_height * 2
 
     2 * hexagon_height * hexagon_width - hexagon_height * q2x - hexagon_width * q2y >= 0
-  end
-
-  def to_hexagon(x, y)
-    @map.each.with_index do |row, row_index|
-      row.each.with_index do |hexagon, column_index|
-        if inside_hexagon?(x, y, hexagon[0], hexagon[1], 65 / 2, 50 / 2)
-          return { position: hexagon, indices: [column_index, row_index] }
-        end
-      end
-    end
-
-    nil
   end
 end

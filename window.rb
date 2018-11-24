@@ -59,7 +59,10 @@ class OfficeWarsWindow < Gosu::Window
         hexagon_target = @map.selected_hexagon
         puts "Clicked on hexagon #{hexagon_target[:indices]}" if DEBUG && !hexagon_target.nil?
 
-        @player.move_to(hexagon_target[:position][0], hexagon_target[:position][1]) unless hexagon_target.nil?
+        player_position = @map.to_hexagon(@player.x + 65 / 2, @player.y + 50 / 2)
+        if hexagon_target && player_position && @map.distance_to_selected(player_position[:indices]) == 1
+          @player.move_to(hexagon_target[:position][0], hexagon_target[:position][1])
+        end
       end
     when char_to_button_id('q')
       exit
