@@ -16,6 +16,7 @@ class OfficeWarsWindow < Gosu::Window
     @stone = Gosu::Image.new('assets/tileStone.png')
     @stone_alternate = Gosu::Image.new('assets/tileRock.png')
     @sand = Gosu::Image.new('assets/tileDirt.png')
+    @highlight = Gosu::Image.new('assets/tileLava.png')
     
     @player_sprites = Gosu::Image.load_tiles('assets/player_tilesheet.png', 80, 115)
     @player_moving = false
@@ -57,6 +58,7 @@ class OfficeWarsWindow < Gosu::Window
         end
       when :practice
         move_player
+        @player_target = [mouse_x, mouse_y]
       end
     when char_to_button_id('q')
       exit
@@ -76,12 +78,12 @@ class OfficeWarsWindow < Gosu::Window
 
     4.times do |row|
       4.times do |time|
-        @stone.draw(50 + time * 2 * width, 50 + row * height, 1)
-        @stone_alternate.draw(50 + time * 2 * width + width, 50 + row * height, 1)
+        draw_tile(50 + time * 2 * width, 50 + row * height, @stone, @highlight)
+        draw_tile(50 + time * 2 * width + width, 50 + row * height, @stone_alternate, @highlight)
       end
       4.times do |time|
-        @stone.draw(50 + width / 2 + time * 2 * width, 50 + row * height + vertical_offset, 1)
-        @sand.draw(50 + width / 2 + time * 2 * width + width, 50 + row * height + vertical_offset, 1)
+        draw_tile(50 + width / 2 + time * 2 * width, 50 + row * height + vertical_offset, @stone, @highlight)
+        draw_tile(50 + width / 2 + time * 2 * width + width, 50 + row * height + vertical_offset, @sand, @highlight)
       end
     end
   end
@@ -99,6 +101,28 @@ class OfficeWarsWindow < Gosu::Window
 
   def move_player
     @player_moving = true
+  end
+
+  def draw_tile(x, y, normal, highlighted)
+    return normal.draw(x, y, 1) if @player_target.nil?
+
+    if inside_hexagon?(x, y, 65 / 2, 50 / 2)
+      highlighted.draw(x, y, 1)
+    else
+      normal.draw(x, y, 1)
+    end
+  end
+
+  def inside_hexagon?(hexagon_x, hexagon_y, hexagon_width, hexagon_height)
+    # http://www.playchilla.com/how-to-check-if-a-point-is-inside-a-hexagon
+    hexagon_center_x = hexagon_x + hexagon_width
+    hexagon_center_y = hexagon_y + hexagon_height
+    q2x = (@player_target[0] - hexagon_center_x).abs
+    q2y = (@player_target[1] - hexagon_center_y).abs
+
+    return false if q2x > hexagon_width / 2 || q2y > hexagon_height * 2
+
+    2 * hexagon_height * hexagon_width - hexagon_height * q2x - hexagon_width * q2y >= 0
   end
 end
 
