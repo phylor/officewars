@@ -16,6 +16,8 @@ class OfficeWarsWindow < Gosu::Window
     @stone = Gosu::Image.new('assets/tileStone.png')
     @stone_alternate = Gosu::Image.new('assets/tileRock.png')
     @sand = Gosu::Image.new('assets/tileDirt.png')
+    
+    @player = Gosu::Image.new('assets/player_tilesheet.png')
   end
 
   def needs_cursor?; true; end
@@ -35,6 +37,7 @@ class OfficeWarsWindow < Gosu::Window
       end
     when :practice
       draw_map
+      draw_player
     end
   end
 
@@ -75,6 +78,10 @@ class OfficeWarsWindow < Gosu::Window
         @sand.draw(50 + width / 2 + time * 2 * width + width, 50 + row * height + vertical_offset, 1)
       end
     end
+  end
+
+  def draw_player
+    @player.subimage(0, 0, 80, 115).draw(45, -15, 2)
   end
 end
 
