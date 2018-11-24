@@ -2,6 +2,64 @@ require 'gosu'
 
 require_relative 'ui'
 
+DEBUG = false
+
+def draw_box(x, y, width, height, color = Gosu::Color::BLACK, z_index = 0)
+  Gosu.draw_line(x, y, color, x + width, y, color, z_index)
+  Gosu.draw_line(x + width, y, color, x + width, y + height, color, z_index)
+  Gosu.draw_line(x + width, y + height, color, x, y + height, color, z_index)
+  Gosu.draw_line(x, y + height, color, x, y, color, z_index)
+end
+
+class Player
+  def initialize
+    @sprites = Gosu::Image.load_tiles('assets/player_tilesheet.png', 80, 115)
+    @moving = false
+    @x = 50
+    @y = 50
+    @x_offset = -10
+    @y_offset = -65
+  end
+
+  def move
+    if @moving
+      @x += 0.75 * abs_norm(@target_x - @x)
+      @y += 0.75 * abs_norm(@target_y - @y)
+
+      if (@target_x - @x).abs < 0.6 && (@target_y - @y).abs < 0.6
+        @moving = false
+      end
+    end
+  end
+
+  def move_to(x, y)
+    @moving = true
+    @target_x = x
+    @target_y = y
+  end
+
+  def draw
+    sprite = if @moving
+               moving_indices = [0, 2, 16, 17]
+               @sprites[moving_indices[Gosu.milliseconds / 100 % 4]]
+             else
+               @sprites[0]
+             end
+
+    sprite.draw(@x + @x_offset, @y + @y_offset, 2)
+
+    draw_box(@x + @x_offset, @y + @y_offset, 80, 115, Gosu::Color::RED, 2) if DEBUG
+  end
+
+  private
+
+  def abs_norm(number)
+    return 1 if number.positive?
+    return -1 if number.negative?
+    0
+  end
+end
+
 class OfficeWarsWindow < Gosu::Window
   def initialize
     @width = 640
@@ -18,30 +76,16 @@ class OfficeWarsWindow < Gosu::Window
     @sand = Gosu::Image.new('assets/tileDirt.png')
     @highlight = Gosu::Image.new('assets/tileLava.png')
     
-    @player_sprites = Gosu::Image.load_tiles('assets/player_tilesheet.png', 80, 115)
-    @player_moving = false
-    @player_x = 45
-    @player_y = -15
-    @player_x_offset = -5
-    @player_y_offset = 65
-
+    @player = Player.new
     create_map
   end
 
   def needs_cursor?; true; end
 
   def update
-    if @player_moving
-      @player_x += 0.75 * abs_norm(@player_target[0] - @player_x + @player_x_offset)
-      @player_y += 0.75 * abs_norm(@player_target[1] - @player_y + @player_y_offset)
-    end
+    @player.move
   end
   
-  def abs_norm(number)
-    return 1 if number.positive?
-    return -1 if number.negative?
-    0
-  end
 
   def draw
     draw_background
@@ -54,7 +98,7 @@ class OfficeWarsWindow < Gosu::Window
       end
     when :practice
       draw_map
-      draw_player
+      @player.draw
     end
   end
 
@@ -72,9 +116,8 @@ class OfficeWarsWindow < Gosu::Window
           end
         end
       when :practice
-        move_player
         hexagon_target = to_hexagon(mouse_x, mouse_y)
-        @player_target = [hexagon_target[0] - @player_x_offset, hexagon_target[1] - @player_y_offset]
+        @player.move_to(hexagon_target[0], hexagon_target[1]) unless hexagon_target.nil?
       end
     when char_to_button_id('q')
       exit
@@ -127,21 +170,6 @@ class OfficeWarsWindow < Gosu::Window
     end
   end
 
-  def draw_player
-    sprite = if @player_moving
-               moving_indices = [0, 2, 16, 17]
-               @player_sprites[moving_indices[Gosu.milliseconds / 100 % 4]]
-             else
-               @player_sprites[0]
-             end
-
-    sprite.draw(@player_x, @player_y, 2)
-  end
-
-  def move_player
-    @player_moving = true
-  end
-
   def inside_hexagon?(x, y, hexagon_x, hexagon_y, hexagon_width, hexagon_height)
     # http://www.playchilla.com/how-to-check-if-a-point-is-inside-a-hexagon
     hexagon_center_x = hexagon_x + hexagon_width
@@ -158,12 +186,14 @@ class OfficeWarsWindow < Gosu::Window
     @map.each.with_index do |row, row_index|
       row.each.with_index do |hexagon, column_index|
         if inside_hexagon?(x, y, hexagon[0], hexagon[1], 65 / 2, 50 / 2)
-          puts "Clicked on hexagon #{[column_index, row_index]}"
+          puts "Clicked on hexagon #{[column_index, row_index]}" if DEBUG
           @selected_hexagon = [column_index, row_index]
           return [hexagon[0], hexagon[1]]
         end
       end
     end
+
+    nil
   end
 end
 
