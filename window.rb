@@ -17,7 +17,8 @@ class OfficeWarsWindow < Gosu::Window
     @stone_alternate = Gosu::Image.new('assets/tileRock.png')
     @sand = Gosu::Image.new('assets/tileDirt.png')
     
-    @player = Gosu::Image.new('assets/player_tilesheet.png')
+    @player_sprites = Gosu::Image.load_tiles('assets/player_tilesheet.png', 80, 115)
+    @player_moving = false
   end
 
   def needs_cursor?; true; end
@@ -44,13 +45,18 @@ class OfficeWarsWindow < Gosu::Window
   def button_down(id)
     case id
     when Gosu::MS_LEFT
-      @ui.clicked(mouse_x, mouse_y) do |text|
-        case text
-        when 'Practice'
-          @state = :practice
-        when 'Exit'
-          exit
+      case @state
+      when :menu
+        @ui.clicked(mouse_x, mouse_y) do |text|
+          case text
+          when 'Practice'
+            @state = :practice
+          when 'Exit'
+            exit
+          end
         end
+      when :practice
+        move_player
       end
     when char_to_button_id('q')
       exit
@@ -81,7 +87,18 @@ class OfficeWarsWindow < Gosu::Window
   end
 
   def draw_player
-    @player.subimage(0, 0, 80, 115).draw(45, -15, 2)
+    sprite = if @player_moving
+               moving_indices = [0, 2, 16, 17]
+               @player_sprites[moving_indices[Gosu.milliseconds / 100 % 4]]
+             else
+               @player_sprites[0]
+             end
+
+    sprite.draw(45, -15, 2)
+  end
+
+  def move_player
+    @player_moving = true
   end
 end
 
