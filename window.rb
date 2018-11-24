@@ -57,7 +57,7 @@ class OfficeWarsWindow < Gosu::Window
       when :practice
         @map.select_coordinates(mouse_x, mouse_y)
         hexagon_target = @map.selected_hexagon
-        puts "Clicked on hexagon #{hexagon_target[:indices]}" if DEBUG
+        puts "Clicked on hexagon #{hexagon_target[:indices]}" if DEBUG && !hexagon_target.nil?
 
         @player.move_to(hexagon_target[:position][0], hexagon_target[:position][1]) unless hexagon_target.nil?
       end

@@ -8,6 +8,8 @@ class Player
     @y = 50
     @x_offset = -10
     @y_offset = -65
+    @max_energy = 3
+    @energy = 3
   end
 
   def move
@@ -22,9 +24,12 @@ class Player
   end
 
   def move_to(x, y)
+    return if @energy.zero?
+
     @moving = true
     @target_x = x
     @target_y = y
+    @energy -= 1
   end
 
   def draw
@@ -37,10 +42,18 @@ class Player
 
     sprite.draw(@x + @x_offset, @y + @y_offset, 2)
 
-    draw_box(@x + @x_offset, @y + @y_offset, 80, 115, Gosu::Color::RED, 2) if DEBUG
+    draw_energy_bar
+
+    Utils.draw_box(@x + @x_offset, @y + @y_offset, 80, 115, Gosu::Color::RED, 2) if DEBUG
   end
 
   private
+
+  def draw_energy_bar
+    Gosu.draw_rect(@x + @x_offset + 10, @y + @y_offset + 20, 10, 30, Gosu::Color.new(238, 238, 238), 2)
+    Gosu.draw_rect(@x + @x_offset + 10, @y + @y_offset + 20 + (30 - 30 * @energy / @max_energy), 10, 30 * @energy / @max_energy, Gosu::Color.new(255, 204, 0), 2)
+    Utils.draw_box(@x + @x_offset + 10, @y + @y_offset + 20, 10, 30, Gosu::Color.new(152, 152, 152), 2)
+  end
 
   def abs_norm(number)
     return 1 if number.positive?
