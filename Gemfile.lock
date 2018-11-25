@@ -1,3 +1,8 @@
+PATH
+  remote: ../hexagon
+  specs:
+    hexagon (0.1.0.pre.alpha)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -8,6 +13,7 @@ PLATFORMS
 
 DEPENDENCIES
   gosu
+  hexagon!
 
 BUNDLED WITH
-   1.16.5
+   1.17.1

@@ -1,5 +1,7 @@
+require 'hexagon'
+
 class Map
-  attr_reader :selected_hexagon
+  attr_reader :selected_hexagon, :player, :enemy
 
   def initialize
     @width = 65
@@ -10,18 +12,30 @@ class Map
     @highlight = Gosu::Image.new('assets/tileLava.png')
 
     create_map
+
+    @layout = Hexagon::Layout.new([50, 50], [65, 50], :pointy)
   end
 
   def draw
-    @map.each.with_index do |row, row_index|
-      row.each.with_index do |hexagon, column_index|
-        if !selected_hexagon.nil? && selected_hexagon[:indices] == [column_index, row_index]
-          @highlight.draw(hexagon[0], hexagon[1], 1)
-        else
-          @stone.draw(hexagon[0], hexagon[1], 1)
-        end
-      end
+    start = Hexagon::Hex.new(0, 0)
+    current = start
+
+    5.times do
+      x, y = @layout.to_pixel(current)
+
+      @stone.draw(x, y - 25, 1)
+
+      current = current.neighbor(:east)
     end
+    #@map.each.with_index do |row, row_index|
+    #  row.each.with_index do |hexagon, column_index|
+    #    if !selected_hexagon.nil? && selected_hexagon[:indices] == [column_index, row_index]
+    #      @highlight.draw(hexagon[0], hexagon[1], 1)
+    #    else
+    #      @stone.draw(hexagon[0], hexagon[1], 1)
+    #    end
+    #  end
+    #end
   end
 
   def select_coordinates(x, y)
@@ -35,15 +49,27 @@ class Map
   end
 
   def to_hexagon(x, y)
-    @map.each.with_index do |row, row_index|
-      row.each.with_index do |hexagon, column_index|
-        if inside_hexagon?(x, y, hexagon[0], hexagon[1], 65 / 2, 50 / 2)
-          return { position: hexagon, indices: [column_index, row_index] }
-        end
-      end
-    end
+    @layout.to_hexagon([x, y])
+    #@map.each.with_index do |row, row_index|
+    #  row.each.with_index do |hexagon, column_index|
+    #    if inside_hexagon?(x, y, hexagon[0], hexagon[1], 65 / 2, 50 / 2)
+    #      return { position: hexagon, indices: [column_index, row_index] }
+    #    end
+    #  end
+    #end
 
-    nil
+    #nil
+  end
+
+  def add_player
+    @player = Player.new
+    @player_position = [0, 0]
+  end
+
+  def add_enemy
+    x, y = @map[0][5]
+    @enemy = Player.new(spritesheet: 'assets/enemy.png', x: x, y: y)
+    @enemy_position = [5, 0]
   end
 
   private

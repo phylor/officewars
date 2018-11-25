@@ -1,3 +1,6 @@
+ENV['BUNDLE_GEMFILE'] ||= File.expand_path('Gemfile', __dir__)
+require 'bundler/setup'
+
 require 'gosu'
 
 require_relative 'utils'
@@ -16,9 +19,9 @@ class OfficeWarsWindow < Gosu::Window
     @ui = Ui.new(self, 0, 100, @width, @height)
     @state = :menu
 
-    @player = Player.new
-    @enemy = Player.new(spritesheet: 'assets/enemy.png', x: 50 + 5 * 65, y: 50)
     @map = Map.new
+    @map.add_player
+    @map.add_enemy
 
     @end_round_button = Ui.new(self, @width - 173, @height - 52, 150, 50)
   end
@@ -26,7 +29,7 @@ class OfficeWarsWindow < Gosu::Window
   def needs_cursor?; true; end
 
   def update
-    @player.move
+    @map.player.move
   end
 
   def draw
@@ -40,8 +43,8 @@ class OfficeWarsWindow < Gosu::Window
       end
     when :practice
       @map.draw
-      @player.draw
-      @enemy.draw
+      @map.player.draw
+      @map.enemy.draw
       @end_round_button.vertical do |layout|
         layout.button('End round', text_offset: 20)
       end
@@ -66,13 +69,13 @@ class OfficeWarsWindow < Gosu::Window
         hexagon_target = @map.selected_hexagon
         puts "Clicked on hexagon #{hexagon_target[:indices]}" if DEBUG && !hexagon_target.nil?
 
-        player_position = @map.to_hexagon(@player.x + 65 / 2, @player.y + 50 / 2)
+        player_position = @map.to_hexagon(@map.player.x + 65 / 2, @map.player.y + 50 / 2)
         if hexagon_target && player_position && @map.distance_to_selected(player_position[:indices]) == 1
-          @player.move_to(hexagon_target[:position][0], hexagon_target[:position][1])
+          @map.player.move_to(hexagon_target[:position][0], hexagon_target[:position][1])
         end
 
         @end_round_button.clicked(mouse_x, mouse_y) do |_text|
-          @player.next_round
+          @map.player.next_round
         end
       end
     when char_to_button_id('q')
