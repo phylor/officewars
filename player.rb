@@ -38,6 +38,7 @@ class Player
     @moving = true
     @target_x, @target_y = @layout.to_pixel(target_position)
     @energy -= @position.distance_to(target_position)
+    @position = target_position
   end
 
   def draw

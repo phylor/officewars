@@ -38,12 +38,13 @@ class Map
   end
 
   def add_enemy
-    @enemy_position = Hexagon::Hex.new(1, 0)
+    @enemy_position = Hexagon::Hex.new(2, 2)
     @enemy = Player.new(spritesheet: 'assets/enemy.png', position: @enemy_position, layout: @hex_map.layout)
   end
 
   def clicked_on(x, y)
     selected = @hex_map.layout.to_hexagon([x, y])
+    puts "player pos #{@player.position.q} / #{@player.position.r} | clicked #{selected.q} / #{selected.r}"
 
     #return unless @hex_map.include?(selected)
     #puts "included in map"
@@ -51,6 +52,7 @@ class Map
     @selected_hexagon = selected
 
     distance = @player.position.distance_to(selected)
+    puts "distance #{distance}"
     return unless distance == 1
 
     if player.can_reach?(selected)
