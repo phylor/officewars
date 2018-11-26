@@ -33,14 +33,15 @@ class Map
   end
 
   def add_player
-    @player = Player.new
     @player_position = Hexagon::Hex.new(0, 0)
+    x, y = @hex_map.layout.to_pixel(@player_position)
+    @player = Player.new(x: x-25, y: y+20)
   end
 
   def add_enemy
     @enemy_position = Hexagon::Hex.new(1, 0)
     x, y = @hex_map.layout.to_pixel(@enemy_position)
-    @enemy = Player.new(spritesheet: 'assets/enemy.png', x: x, y: y)
+    @enemy = Player.new(spritesheet: 'assets/enemy.png', x: x-25, y: y+20)
   end
 
   def clicked_on(x, y)
@@ -58,7 +59,7 @@ class Map
     return unless distance == 1
 
     target_x, target_y = @hex_map.layout.to_pixel(selected)
-    if player.move_to(target_x, target_y)
+    if player.move_to(target_x-25, target_y+20)
       @player_position = selected
     end
   end

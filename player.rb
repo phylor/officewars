@@ -9,7 +9,7 @@ class Player
     @x = x
     @y = y
     @x_offset = -10
-    @y_offset = -65
+    @y_offset = -115
     @max_energy = 3
     @energy = 3
   end
