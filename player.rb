@@ -1,17 +1,20 @@
 require_relative 'utils'
 
 class Player
-  attr_reader :x, :y
+  attr_reader :x, :y, :position
 
-  def initialize(spritesheet: 'assets/player_tilesheet.png', x: 50, y: 50)
+  def initialize(spritesheet: 'assets/player_tilesheet.png', position: Hexagon::Hex.new(0, 0), layout:)
     @sprites = Gosu::Image.load_tiles(spritesheet, 80, 115)
     @moving = false
-    @x = x
-    @y = y
-    @x_offset = -10
-    @y_offset = -115
+    @position = position
+    @layout = layout
+    @x, @y = @layout.to_pixel(@position)
+    @x_offset = -10 - 25
+    @y_offset = -115 + 20
     @max_energy = 3
     @energy = 3
+    @hit_points = 1
+    @attack_points = 1
   end
 
   def move
@@ -25,20 +28,24 @@ class Player
     end
   end
 
-  def move_to(x, y)
-    return false if @energy.zero?
+  def can_reach?(target_position)
+    @energy >= @position.distance_to(target_position)
+  end
+
+  def move_to(target_position)
+    return unless can_reach?(target_position)
 
     @moving = true
-    @target_x = x
-    @target_y = y
-    @energy -= 1
-    true
+    @target_x, @target_y = @layout.to_pixel(target_position)
+    @energy -= @position.distance_to(target_position)
   end
 
   def draw
     sprite = if @moving
                moving_indices = [0, 2, 16, 17]
                @sprites[moving_indices[Gosu.milliseconds / 100 % 4]]
+             elsif @hit_points <= 0
+               @sprites[4]
              else
                @sprites[0]
              end
@@ -52,6 +59,15 @@ class Player
 
   def next_round
     @energy = @max_energy
+  end
+
+  def attack(enemy)
+    enemy.hit(@attack_points)
+    @energy -= 1
+  end
+
+  def hit(damage)
+    @hit_points -= damage
   end
 
   private

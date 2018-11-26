@@ -33,34 +33,32 @@ class Map
   end
 
   def add_player
-    @player_position = Hexagon::Hex.new(0, 0)
-    x, y = @hex_map.layout.to_pixel(@player_position)
-    @player = Player.new(x: x-25, y: y+20)
+    position = Hexagon::Hex.new(0, 0)
+    @player = Player.new(position: position, layout: @hex_map.layout)
   end
 
   def add_enemy
     @enemy_position = Hexagon::Hex.new(1, 0)
-    x, y = @hex_map.layout.to_pixel(@enemy_position)
-    @enemy = Player.new(spritesheet: 'assets/enemy.png', x: x-25, y: y+20)
+    @enemy = Player.new(spritesheet: 'assets/enemy.png', position: @enemy_position, layout: @hex_map.layout)
   end
 
   def clicked_on(x, y)
     selected = @hex_map.layout.to_hexagon([x, y])
-    puts "clicked on [#{x}, #{y}] -> #{selected.inspect}"
 
     #return unless @hex_map.include?(selected)
-
     #puts "included in map"
 
     @selected_hexagon = selected
 
-    distance = @player_position.distance_to(selected)
-    puts "distance #{distance}"
+    distance = @player.position.distance_to(selected)
     return unless distance == 1
 
-    target_x, target_y = @hex_map.layout.to_pixel(selected)
-    if player.move_to(target_x-25, target_y+20)
-      @player_position = selected
+    if player.can_reach?(selected)
+      if @enemy_position == selected
+        player.attack(@enemy)
+      else
+        player.move_to(selected)
+      end
     end
   end
 
