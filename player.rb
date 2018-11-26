@@ -45,7 +45,7 @@ class Player
     sprite = if @moving
                moving_indices = [0, 2, 16, 17]
                @sprites[moving_indices[Gosu.milliseconds / 100 % 4]]
-             elsif @hit_points <= 0
+             elsif dead?
                @sprites[4]
              else
                @sprites[0]
@@ -69,6 +69,10 @@ class Player
 
   def hit(damage)
     @hit_points -= damage
+  end
+
+  def dead?
+    @hit_points <= 0
   end
 
   private

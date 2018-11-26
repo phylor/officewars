@@ -30,6 +30,10 @@ class OfficeWarsWindow < Gosu::Window
 
   def update
     @map.player.move
+
+    if @map.enemy.dead?
+      @state = :menu
+    end
   end
 
   def draw
