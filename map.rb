@@ -17,6 +17,8 @@ class Map
   def draw
     @hex_map.each do |hexagon|
       x, y = @hex_map.layout.to_pixel(hexagon)
+      x -= 25
+      y -= 25
 
       if hexagon == @selected_hexagon
         @highlight.draw(x, y, 1)
