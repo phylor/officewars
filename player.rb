@@ -26,12 +26,13 @@ class Player
   end
 
   def move_to(x, y)
-    return if @energy.zero?
+    return false if @energy.zero?
 
     @moving = true
     @target_x = x
     @target_y = y
     @energy -= 1
+    true
   end
 
   def draw
