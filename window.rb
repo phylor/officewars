@@ -10,8 +10,8 @@ require_relative 'ui'
 
 class OfficeWarsWindow < Gosu::Window
   def initialize
-    @width = 640
-    @height = 480
+    @width = 1024
+    @height = 768
 
     super(@width, @height)
     self.caption = 'Office Wars'
@@ -43,8 +43,8 @@ class OfficeWarsWindow < Gosu::Window
       end
     when :practice
       @map.draw
-      @map.player.draw
-      @map.enemy.draw
+      @map.player&.draw
+      @map.enemy&.draw if @map.enemy&.alive?
       @end_round_button.vertical do |layout|
         layout.button('End round', text_offset: 20)
       end

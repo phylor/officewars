@@ -12,6 +12,12 @@ class Player
     @y_offset = -65
     @max_energy = 3
     @energy = 3
+    @max_health = 5
+    @health = 5
+  end
+
+  def alive?
+    @health.positive?
   end
 
   def move
@@ -35,6 +41,19 @@ class Player
     true
   end
 
+  def attack(enemy)
+    return false if @energy.zero?
+
+    @energy -= 1
+    enemy.attacked_with(1)
+    true
+  end
+
+  def attacked_with(strength)
+    @health -= strength
+    @health = 0 if @health.negative?
+  end
+
   def draw
     sprite = if @moving
                moving_indices = [0, 2, 16, 17]
@@ -45,7 +64,10 @@ class Player
 
     sprite.draw(@x + @x_offset, @y + @y_offset, 2)
 
-    draw_energy_bar
+    Gosu.translate(@x + @x_offset + 10, @y + @y_offset + 20) do
+      draw_energy_bar
+      draw_health_bar
+    end
 
     Utils.draw_box(@x + @x_offset, @y + @y_offset, 80, 115, Gosu::Color::RED, 2) if DEBUG
   end
@@ -57,9 +79,21 @@ class Player
   private
 
   def draw_energy_bar
-    Gosu.draw_rect(@x + @x_offset + 10, @y + @y_offset + 20, 10, 30, Gosu::Color.new(238, 238, 238), 2)
-    Gosu.draw_rect(@x + @x_offset + 10, @y + @y_offset + 20 + (30 - 30 * @energy / @max_energy), 10, 30 * @energy / @max_energy, Gosu::Color.new(255, 204, 0), 2)
-    Utils.draw_box(@x + @x_offset + 10, @y + @y_offset + 20, 10, 30, Gosu::Color.new(152, 152, 152), 2)
+    # Border
+    Gosu.draw_rect(0, 0, 10, 30, Gosu::Color.new(238, 238, 238), 2)
+    # Actual bar
+    Gosu.draw_rect(0, 0 + (30 - 30 * @energy / @max_energy), 10, 30 * @energy / @max_energy, Gosu::Color.new(255, 204, 0), 2)
+    # Background
+    Utils.draw_box(0, 0, 10, 30, Gosu::Color.new(152, 152, 152), 2)
+  end
+
+  def draw_health_bar
+    # Border
+    Gosu.draw_rect(10, 0, 10, 30, Gosu::Color.new(238, 238, 238), 2)
+    # Actual bar
+    Gosu.draw_rect(10, 0 + (30 - 30 * @health / @max_health), 10, 30 * @health / @max_health, Gosu::Color.new(201, 62, 38), 2)
+    # Background
+    Utils.draw_box(10, 0, 10, 30, Gosu::Color.new(152, 152, 152), 2)
   end
 
   def abs_norm(number)
