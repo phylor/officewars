@@ -32,14 +32,11 @@ class Map
   end
 
   def add_player
-    @player = Player.new
-    @player_position = Square::Square.new(0, 0)
+    @player = Player.new(position: Square::Square.new(0, 0), layout: @map.layout)
   end
 
   def add_enemy
-    @enemy_position = Square::Square.new(1, 0)
-    x, y = @map.layout.to_pixel(@enemy_position)
-    @enemy = Player.new(spritesheet: 'assets/enemy.png', x: x, y: y)
+    @enemy = Player.new(spritesheet: 'assets/enemy.png', position: Square::Square.new(1, 0), layout: @map.layout)
   end
 
   def clicked_on(x, y)
@@ -50,31 +47,28 @@ class Map
 
     @selected_tile = selected
 
-    distance = @player_position.distance_to(selected)
+    distance = @player.position.distance_to(selected)
     puts "distance #{distance}"
     return unless distance == 1
 
     target_x, target_y = @map.layout.to_pixel(selected)
 
-    case title_state(selected.x_pos, selected.y_pos)
-    when :enemy
-      player.attack(enemy)
-      unless enemy.alive?
-        @enemy = nil
-        @enemy_position = nil
+    if player.can_reach?(selected)
+      case title_state(selected.x_pos, selected.y_pos)
+      when :enemy
+        player.attack(enemy)
+      when :empty
+        player.move_to(selected)
       end
-    when :empty
-      player.move_to(target_x, target_y)
-      @player_position = selected
     end
   end
 
   private
 
   def title_state(x_pos, y_pos)
-    if @enemy_position&.at?(x_pos, y_pos)
+    if @enemy&.position&.at?(x_pos, y_pos)
       :enemy
-    elsif @player_position&.at?(x_pos, y_pos)
+    elsif @player&.position&.at?(x_pos, y_pos)
       :player
     else
       :empty

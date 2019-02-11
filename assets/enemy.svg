@@ -17,7 +17,10 @@
    viewBox="0 0 720 330"
    id="svg2309"
    sodipodi:docname="enemy.svg"
-   inkscape:version="0.92.2 2405546, 2018-03-11">
+   inkscape:version="0.92.2 2405546, 2018-03-11"
+   inkscape:export-filename="/home/serge/projects/officewars/assets/enemy.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96">
   <metadata
      id="metadata2313">
     <rdf:RDF>
@@ -38,17 +41,17 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="2558"
-     inkscape:window-height="1415"
+     inkscape:window-width="1278"
+     inkscape:window-height="1328"
      id="namedview2311"
      showgrid="false"
-     inkscape:zoom="1.4361111"
-     inkscape:cx="408.6495"
-     inkscape:cy="166.36301"
-     inkscape:window-x="0"
-     inkscape:window-y="23"
+     inkscape:zoom="0.71805555"
+     inkscape:cx="374.12356"
+     inkscape:cy="94.070066"
+     inkscape:window-x="1280"
+     inkscape:window-y="111"
      inkscape:window-maximized="0"
-     inkscape:current-layer="g1065" />
+     inkscape:current-layer="use1265" />
   <defs
      id="defs936">
     <g
@@ -319,7 +322,9 @@
   </defs>
   <g
      id="armLeft"
-     transform="matrix( 0.86602783203125, 0.4999847412109375, 0.4110107421875, -1.1675262451171875, 539.45,57.15) ">
+     transform="matrix( 0.86602783203125, 0.4999847412109375, 0.4110107421875, -1.1675262451171875, 539.45,57.15) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 0.9970703125, 0, 0, 1.006103515625, -0.4,-0.05) "
        id="g940">
@@ -330,7 +335,9 @@
   </g>
   <g
      id="handLeft"
-     transform="matrix( -0.965911865234375, -0.2587890625, 0.2587890625, -0.9658966064453125, 540.95,23.6) ">
+     transform="matrix( -0.965911865234375, -0.2587890625, 0.2587890625, -0.9658966064453125, 540.95,23.6) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1, 0, 0, 1, 0,0) "
        id="g945">
@@ -341,7 +348,9 @@
   </g>
   <g
      id="armRight"
-     transform="matrix( -0.6365509033203125, 0.7712249755859375, -0.5618133544921875, -0.463714599609375, 506.2,62.15) ">
+     transform="matrix( -0.6365509033203125, 0.7712249755859375, -0.5618133544921875, -0.463714599609375, 506.2,62.15) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 0.9970703125, 0, 0, 1.006103515625, -0.4,-0.05) "
        id="g950">
@@ -352,7 +361,9 @@
   </g>
   <g
      id="handRight"
-     transform="matrix( 0.9999237060546875, 0.0097808837890625, 0.0097808837890625, -0.9999237060546875, 502.4,44.1) ">
+     transform="matrix( 0.9999237060546875, 0.0097808837890625, 0.0097808837890625, -0.9999237060546875, 502.4,44.1) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1, 0, 0, 1, 0,0) "
        id="g955">
@@ -363,7 +374,9 @@
   </g>
   <g
      transform="matrix( 0.9870147705078125, 0.158935546875, 0, 1, 521.35,78.35) "
-     id="g962">
+     id="g962"
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1, 0, 0, 1, 0,0) "
        id="g960">
@@ -424,7 +437,9 @@
   </g>
   <g
      id="armRight_FL"
-     transform="matrix( -0.9877471923828125, 0.2588043212890625, 0.1600341796875, 0.8716888427734375, 457.1,288.85) ">
+     transform="matrix( -0.9877471923828125, 0.2588043212890625, 0.1600341796875, 0.8716888427734375, 457.1,288.85) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 0.9970703125, 0, 0, 1.006103515625, -0.4,-0.05) "
        id="g994">
@@ -435,7 +450,9 @@
   </g>
   <g
      id="handRight_FL"
-     transform="matrix( -0.9877471923828125, 0.2588043212890625, 0.177337646484375, 0.9659271240234375, 460.3,314) ">
+     transform="matrix( -0.9877471923828125, 0.2588043212890625, 0.177337646484375, 0.9659271240234375, 460.3,314) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1, 0, 0, 1, 0,0) "
        id="g999">
@@ -446,7 +463,9 @@
   </g>
   <g
      id="legLeft"
-     transform="matrix( 1, 0, 0, 1, 21.25,313.85) ">
+     transform="matrix( 1, 0, 0, 1, 21.25,313.85) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1.0071868896484375, 0, 0, 0.9892425537109375, 0,0) "
        id="g1004">
@@ -457,7 +476,9 @@
   </g>
   <g
      id="legRight"
-     transform="matrix( -1, 0, 0.12384033203125, 1, 41.4,313.85) ">
+     transform="matrix( -1, 0, 0.12384033203125, 1, 41.4,313.85) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1.0071868896484375, 0, 0, 0.9892425537109375, 0,0) "
        id="g1009">
@@ -468,7 +489,9 @@
   </g>
   <g
      id="body"
-     transform="matrix( 0.9168853759765625, 0, 0.1072998046875, 1, 31.85,305.15) ">
+     transform="matrix( 0.9168853759765625, 0, 0.1072998046875, 1, 31.85,305.15) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1.0129852294921875, 0, 0, 1.0081329345703125, 0.5,0.5) "
        id="g1014">
@@ -479,7 +502,9 @@
   </g>
   <g
      id="armLeft_FL"
-     transform="matrix( 1, 0, 0, 1, 10.9,290.25) ">
+     transform="matrix( 1, 0, 0, 1, 10.9,290.25) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 0.9970703125, 0, 0, 1.006103515625, -0.4,-0.05) "
        id="g1019">
@@ -490,7 +515,9 @@
   </g>
   <g
      id="handLeft_FL"
-     transform="matrix( 1, 0, 0, 1, 12.2,316.85) ">
+     transform="matrix( 1, 0, 0, 1, 12.2,316.85) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1, 0, 0, 1, 0,0) "
        id="g1024">
@@ -501,7 +528,9 @@
   </g>
   <g
      id="armRight_FL_FL"
-     transform="matrix( 0.6190185546875, -0.7853546142578125, 0.7853546142578125, 0.6190185546875, 47.35,289.55) ">
+     transform="matrix( 0.6190185546875, -0.7853546142578125, 0.7853546142578125, 0.6190185546875, 47.35,289.55) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 0.9970703125, 0, 0, 1.006103515625, -0.4,-0.05) "
        id="g1029">
@@ -512,7 +541,9 @@
   </g>
   <g
      id="handRight_FL_FL"
-     transform="matrix( 0.4999847412109375, -0.8660125732421875, 0.8660125732421875, 0.4999847412109375, 68.4,303.6) ">
+     transform="matrix( 0.4999847412109375, -0.8660125732421875, 0.8660125732421875, 0.4999847412109375, 68.4,303.6) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1, 0, 0, 1, 0,0) "
        id="g1034">
@@ -523,7 +554,9 @@
   </g>
   <g
      id="head"
-     transform="matrix( 1, 0, 0, 1, 31.75,286.15) ">
+     transform="matrix( 1, 0, 0, 1, 31.75,286.15) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1, 0, 0, 1, 0,0) "
        id="g1039">
@@ -562,7 +595,9 @@
   </g>
   <g
      id="legLeft_FL"
-     transform="matrix( 1, 0, 0, 1, 30.75,93.85) ">
+     transform="matrix( 1, 0, 0, 1, 30.75,93.85) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1.0071868896484375, 0, 0, 0.9892425537109375, 0,0) "
        id="g1060"
@@ -611,7 +646,9 @@
   </g>
   <g
      id="legRight_FL"
-     transform="matrix( -1, 0, 0, 1, 51.9,93.85) ">
+     transform="matrix( -1, 0, 0, 1, 51.9,93.85) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1.0071868896484375, 0, 0, 0.9892425537109375, 0,0) "
        id="g1065">
@@ -634,7 +671,9 @@
   </g>
   <g
      id="body_FL"
-     transform="matrix( 1, 0, 0, 1, 41.35,85.15) ">
+     transform="matrix( 1, 0, 0, 1, 41.35,85.15) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1.0129852294921875, 0, 0, 1.0081329345703125, 0.5,0.5) "
        id="g1070">
@@ -645,7 +684,9 @@
   </g>
   <g
      id="g2343"
-     transform="translate(-707.3986,-13.094482)">
+     transform="translate(-707.3986,-13.094482)"
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <rect
        y="77.220482"
        x="729.7486"
@@ -663,7 +704,9 @@
   </g>
   <g
      id="armLeft_FL_FL"
-     transform="matrix( 0.9659271240234375, 0.2588043212890625, -0.233551025390625, 0.8716888427734375, 23.55,70.35) ">
+     transform="matrix( 0.9659271240234375, 0.2588043212890625, -0.233551025390625, 0.8716888427734375, 23.55,70.35) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 0.9970703125, 0, 0, 1.006103515625, -0.4,-0.05) "
        id="g1075">
@@ -746,7 +789,9 @@
   </g>
   <g
      id="handLeft_FL_FL"
-     transform="matrix( 0.9659271240234375, 0.2588043212890625, -0.2588043212890625, 0.9659271240234375, 18.3,95.05) ">
+     transform="matrix( 0.9659271240234375, 0.2588043212890625, -0.2588043212890625, 0.9659271240234375, 18.3,95.05) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1, 0, 0, 1, 0,0) "
        id="g1080">
@@ -757,7 +802,9 @@
   </g>
   <g
      id="armRight_FL_FL_FL"
-     transform="matrix( -0.9659271240234375, 0.2588043212890625, 0.233551025390625, 0.8716888427734375, 57.6,69.35) ">
+     transform="matrix( -0.9659271240234375, 0.2588043212890625, 0.233551025390625, 0.8716888427734375, 57.6,69.35) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 0.9970703125, 0, 0, 1.006103515625, -0.4,-0.05) "
        id="g1085">
@@ -1021,7 +1068,9 @@
   </g>
   <g
      id="handRight_FL_FL_FL"
-     transform="matrix( -0.9659271240234375, 0.2588043212890625, 0.2588043212890625, 0.9659271240234375, 62.9,94.5) ">
+     transform="matrix( -0.9659271240234375, 0.2588043212890625, 0.2588043212890625, 0.9659271240234375, 62.9,94.5) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1, 0, 0, 1, 0,0) "
        id="g1090">
@@ -1032,7 +1081,9 @@
   </g>
   <g
      id="head_FL"
-     transform="matrix( 1, 0, 0, 1, 41.25,66.15) ">
+     transform="matrix( 1, 0, 0, 1, 41.25,66.15) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1, 0, 0, 1, 0,0) "
        id="g1095">
@@ -1071,7 +1122,9 @@
   </g>
   <g
      id="legLeft_FL_FL"
-     transform="matrix( -0.858612060546875, -0.499969482421875, -0.4956817626953125, 0.86602783203125, 114.15,89.5) ">
+     transform="matrix( -0.858612060546875, -0.499969482421875, -0.4956817626953125, 0.86602783203125, 114.15,89.5) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1.0071868896484375, 0, 0, 0.9892425537109375, 0,0) "
        id="g1116">
@@ -1082,7 +1135,9 @@
   </g>
   <g
      id="armRight_FL_FL_FL_FL"
-     transform="matrix( 0.773681640625, 0.6253204345703125, 0.619964599609375, -0.780364990234375, 139.2,63.85) ">
+     transform="matrix( 0.773681640625, 0.6253204345703125, 0.619964599609375, -0.780364990234375, 139.2,63.85) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 0.9970703125, 0, 0, 1.006103515625, -0.4,-0.05) "
        id="g1121">
@@ -1093,7 +1148,9 @@
   </g>
   <g
      id="body_FL_FL"
-     transform="matrix( 0.991424560546875, 0, 0, 1, 122.85,80.25) ">
+     transform="matrix( 0.991424560546875, 0, 0, 1, 122.85,80.25) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1.0129852294921875, 0, 0, 1.0081329345703125, 0.5,0.5) "
        id="g1126">
@@ -1104,7 +1161,9 @@
   </g>
   <g
      id="armLeft_FL_FL_FL"
-     transform="matrix( 0.9059906005859375, 0.406097412109375, -0.402618408203125, 0.913818359375, 102.1,65.35) ">
+     transform="matrix( 0.9059906005859375, 0.406097412109375, -0.402618408203125, 0.913818359375, 102.1,65.35) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 0.9970703125, 0, 0, 1.006103515625, -0.4,-0.05) "
        id="g1131">
@@ -1115,7 +1174,9 @@
   </g>
   <g
      id="handLeft_FL_FL_FL"
-     transform="matrix( 0.8837890625, 0.4531707763671875, -0.44927978515625, 0.89141845703125, 91.75,91.45) ">
+     transform="matrix( 0.8837890625, 0.4531707763671875, -0.44927978515625, 0.89141845703125, 91.75,91.45) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1, 0, 0, 1, 0,0) "
        id="g1136">
@@ -1126,7 +1187,9 @@
   </g>
   <g
      id="handRight_FL_FL_FL_FL"
-     transform="matrix( -0.9189910888671875, -0.3751678466796875, 0.3719482421875, -0.92694091796875, 147.25,34.7) ">
+     transform="matrix( -0.9189910888671875, -0.3751678466796875, 0.3719482421875, -0.92694091796875, 147.25,34.7) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1, 0, 0, 1, 0,0) "
        id="g1141">
@@ -1137,7 +1200,9 @@
   </g>
   <g
      id="head_FL_FL"
-     transform="matrix( 0.991424560546875, 0, 0, 1, 122.75,61.25) ">
+     transform="matrix( 0.991424560546875, 0, 0, 1, 122.75,61.25) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1, 0, 0, 1, 0,0) "
        id="g1146">
@@ -1176,7 +1241,9 @@
   </g>
   <g
      id="legRight_FL_FL"
-     transform="matrix( -0.9887542724609375, -0.1416015625, -0.256591796875, 0.9659271240234375, 135.5,83.5) ">
+     transform="matrix( -0.9887542724609375, -0.1416015625, -0.256591796875, 0.9659271240234375, 135.5,83.5) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1.0071868896484375, 0, 0, 0.9892425537109375, 0,0) "
        id="g1167">
@@ -1187,7 +1254,9 @@
   </g>
   <g
      id="legLeft_FL_FL_FL"
-     transform="matrix( -0.9180755615234375, -0.4373779296875, -0.2588043212890625, 0.9659271240234375, 190.2,86.2) ">
+     transform="matrix( -0.9180755615234375, -0.4373779296875, -0.2588043212890625, 0.9659271240234375, 190.2,86.2) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1.0071868896484375, 0, 0, 0.9892425537109375, 0,0) "
        id="g1172">
@@ -1198,7 +1267,9 @@
   </g>
   <g
      id="legRight_FL_FL_FL"
-     transform="matrix( -1.0137786865234375, 0.080230712890625, 0.2588043212890625, 0.9659271240234375, 214.3,91.65) ">
+     transform="matrix( -1.0137786865234375, 0.080230712890625, 0.2588043212890625, 0.9659271240234375, 214.3,91.65) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1.0071868896484375, 0, 0, 0.9892425537109375, 0,0) "
        id="g1177">
@@ -1209,7 +1280,9 @@
   </g>
   <g
      id="body_FL_FL_FL"
-     transform="matrix( 1.0014190673828125, 0.027069091796875, -0.08673095703125, 0.9962310791015625, 201,79.95) ">
+     transform="matrix( 1.0014190673828125, 0.027069091796875, -0.08673095703125, 0.9962310791015625, 201,79.95) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1.0129852294921875, 0, 0, 1.0081329345703125, 0.5,0.5) "
        id="g1182">
@@ -1220,7 +1293,9 @@
   </g>
   <g
      id="armLeft_FL_FL_FL_FL"
-     transform="matrix( 0.7071075439453125, 0.70709228515625, -0.70709228515625, 0.7071075439453125, 185.55,64.55) ">
+     transform="matrix( 0.7071075439453125, 0.70709228515625, -0.70709228515625, 0.7071075439453125, 185.55,64.55) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 0.9970703125, 0, 0, 1.006103515625, -0.4,-0.05) "
        id="g1187">
@@ -1231,7 +1306,9 @@
   </g>
   <g
      id="handLeft_FL_FL_FL_FL"
-     transform="matrix( 0.86602783203125, 0.4999847412109375, -0.4999847412109375, 0.86602783203125, 169.9,83.55) ">
+     transform="matrix( 0.86602783203125, 0.4999847412109375, -0.4999847412109375, 0.86602783203125, 169.9,83.55) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1, 0, 0, 1, 0,0) "
        id="g1192">
@@ -1242,7 +1319,9 @@
   </g>
   <g
      id="armRight_FL_FL_FL_FL_FL"
-     transform="matrix( -0.8660125732421875, 0.5, 0.5, 0.8660125732421875, 220.75,67.05) ">
+     transform="matrix( -0.8660125732421875, 0.5, 0.5, 0.8660125732421875, 220.75,67.05) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 0.9970703125, 0, 0, 1.006103515625, -0.4,-0.05) "
        id="g1197">
@@ -1253,7 +1332,9 @@
   </g>
   <g
      id="handRight_FL_FL_FL_FL_FL"
-     transform="matrix( -0.9659271240234375, 0.2588043212890625, 0.2588043212890625, 0.9659271240234375, 231.05,89.7) ">
+     transform="matrix( -0.9659271240234375, 0.2588043212890625, 0.2588043212890625, 0.9659271240234375, 231.05,89.7) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1, 0, 0, 1, 0,0) "
        id="g1202">
@@ -1264,7 +1345,9 @@
   </g>
   <g
      id="legLeft_FL_FL_FL_FL"
-     transform="matrix( 0.25885009765625, -0.9658966064453125, -0.9658966064453125, -0.2588348388671875, 270.8,101.15) ">
+     transform="matrix( 0.25885009765625, -0.9658966064453125, -0.9658966064453125, -0.2588348388671875, 270.8,101.15) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1.0071868896484375, 0, 0, 0.9892425537109375, 0,0) "
        id="g1207">
@@ -1275,7 +1358,9 @@
   </g>
   <g
      id="body_FL_FL_FL_FL"
-     transform="matrix( 0.9965667724609375, -0.0825958251953125, 0.0825958251953125, 0.9965667724609375, 281.35,92.6) ">
+     transform="matrix( 0.9965667724609375, -0.0825958251953125, 0.0825958251953125, 0.9965667724609375, 281.35,92.6) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1.0129852294921875, 0, 0, 1.0081329345703125, 0.5,0.5) "
        id="g1212">
@@ -1286,7 +1371,9 @@
   </g>
   <g
      id="legRight_FL_FL_FL_FL"
-     transform="matrix( -1, 0, 0, 1, 291.9,93.85) ">
+     transform="matrix( -1, 0, 0, 1, 291.9,93.85) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1.0071868896484375, 0, 0, 0.9892425537109375, 0,0) "
        id="g1217">
@@ -1297,7 +1384,9 @@
   </g>
   <g
      id="armLeft_FL_FL_FL_FL_FL"
-     transform="matrix( 0.9351959228515625, 0.3541259765625, -0.3541259765625, 0.9351959228515625, 264.6,77) ">
+     transform="matrix( 0.9351959228515625, 0.3541259765625, -0.3541259765625, 0.9351959228515625, 264.6,77) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 0.9970703125, 0, 0, 1.006103515625, -0.4,-0.05) "
        id="g1222">
@@ -1308,7 +1397,9 @@
   </g>
   <g
      id="handLeft_FL_FL_FL_FL_FL"
-     transform="matrix( 0.9351959228515625, 0.3541259765625, -0.3541259765625, 0.9351959228515625, 256.35,102.6) ">
+     transform="matrix( 0.9351959228515625, 0.3541259765625, -0.3541259765625, 0.9351959228515625, 256.35,102.6) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1, 0, 0, 1, 0,0) "
        id="g1227">
@@ -1319,7 +1410,9 @@
   </g>
   <g
      id="armRight_FL_FL_FL_FL_FL_FL"
-     transform="matrix( -0.9659271240234375, 0.2588043212890625, 0.2588043212890625, 0.9659271240234375, 298.1,73.75) ">
+     transform="matrix( -0.9659271240234375, 0.2588043212890625, 0.2588043212890625, 0.9659271240234375, 298.1,73.75) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 0.9970703125, 0, 0, 1.006103515625, -0.4,-0.05) "
        id="g1232">
@@ -1330,7 +1423,9 @@
   </g>
   <g
      id="handRight_FL_FL_FL_FL_FL_FL"
-     transform="matrix( -0.9659271240234375, -0.2588043212890625, -0.2588043212890625, 0.9659271240234375, 302.2,95.7) ">
+     transform="matrix( -0.9659271240234375, -0.2588043212890625, -0.2588043212890625, 0.9659271240234375, 302.2,95.7) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1, 0, 0, 1, 0,0) "
        id="g1237">
@@ -1341,51 +1436,116 @@
   </g>
   <g
      id="legLeft_FL_FL_FL_FL_FL"
-     transform="matrix( 0.8660125732421875, 0.5000152587890625, -0.4088287353515625, 0.9186553955078125, 352.45,87.5) ">
+     transform="matrix( 0.8660125732421875, 0.5000152587890625, -0.4088287353515625, 0.9186553955078125, 352.45,87.5) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1.0071868896484375, 0, 0, 0.9892425537109375, 0,0) "
        id="g1242">
-      <use
-         xlink:href="#Symbol_11_0_Layer0_0_FILL"
-         id="use1240" />
+      <g
+         id="use1240">
+        <path
+           id="path12000"
+           d="m 8.9,16.15 v -5 H -8.7 V 11.1 q -1.75,0.95 -3.2,2.9 v 2.15 z"
+           inkscape:connector-curvature="0"
+           style="fill:#b8824d;stroke:none" />
+        <path
+           id="path12002"
+           d="M 8.9,11.15 H 8.95 V 7.75 H -8.7 v 3.35 0.05 z"
+           inkscape:connector-curvature="0"
+           style="fill:#9e1e1e;stroke:none;fill-opacity:1" />
+        <path
+           id="path12004"
+           d="M 6.4,-4.55 Q 3.8,-7.1 0.15,-7.1 H 0.1 q -3.65,0 -6.2,2.55 -2.6,2.6 -2.6,6.25 V 7.75 H 8.95 V 1.7 q 0,-3.65 -2.55,-6.25 z"
+           inkscape:connector-curvature="0"
+           style="fill:#d62828;stroke:none;fill-opacity:1" />
+      </g>
     </g>
   </g>
   <g
      id="legRight_FL_FL_FL_FL_FL"
-     transform="matrix( -0.8660125732421875, 0.4999847412109375, 0.7039794921875, 0.823089599609375, 370.1,86.5) ">
+     transform="matrix( -0.8660125732421875, 0.4999847412109375, 0.7039794921875, 0.823089599609375, 370.1,86.5) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1.0071868896484375, 0, 0, 0.9892425537109375, 0,0) "
        id="g1247">
-      <use
-         xlink:href="#Symbol_11_0_Layer0_0_FILL"
-         id="use1245" />
+      <g
+         id="use1245">
+        <path
+           id="path12008"
+           d="m 8.9,16.15 v -5 H -8.7 V 11.1 q -1.75,0.95 -3.2,2.9 v 2.15 z"
+           inkscape:connector-curvature="0"
+           style="fill:#b8824d;stroke:none" />
+        <path
+           id="path12010"
+           d="M 8.9,11.15 H 8.95 V 7.75 H -8.7 v 3.35 0.05 z"
+           inkscape:connector-curvature="0"
+           style="fill:#9e1e1e;stroke:none;fill-opacity:1" />
+        <path
+           id="path12012"
+           d="M 6.4,-4.55 Q 3.8,-7.1 0.15,-7.1 H 0.1 q -3.65,0 -6.2,2.55 -2.6,2.6 -2.6,6.25 V 7.75 H 8.95 V 1.7 q 0,-3.65 -2.55,-6.25 z"
+           inkscape:connector-curvature="0"
+           style="fill:#d62828;stroke:none;fill-opacity:1" />
+      </g>
     </g>
   </g>
   <g
      id="body_FL_FL_FL_FL_FL"
-     transform="matrix( 0.8311614990234375, -0.0647735595703125, 0, 1, 361.55,77.8) ">
+     transform="matrix( 0.8311614990234375, -0.0647735595703125, 0, 1, 361.55,77.8) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1.0129852294921875, 0, 0, 1.0081329345703125, 0.5,0.5) "
        id="g1252">
-      <use
-         xlink:href="#Symbol_10_0_Layer0_0_FILL"
-         id="use1250" />
+      <g
+         id="use1250">
+        <path
+           id="path11968"
+           d="M 19.25,9.4 V 5.35 h -38.5 V 9.4 Z"
+           inkscape:connector-curvature="0"
+           style="fill:#9e1e1e;stroke:none;fill-opacity:1" />
+        <path
+           id="path11970"
+           d="m 19.25,-21.35 h -38.5 v 26.7 h 38.5 z"
+           inkscape:connector-curvature="0"
+           style="fill:#d62828;stroke:none;fill-opacity:1" />
+      </g>
     </g>
   </g>
   <g
      id="armLeft_FL_FL_FL_FL_FL_FL"
-     transform="matrix( 0.707122802734375, 0.70709228515625, -0.70709228515625, 0.707122802734375, 347.25,62.7) ">
+     transform="matrix( 0.707122802734375, 0.70709228515625, -0.70709228515625, 0.707122802734375, 347.25,62.7) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 0.9970703125, 0, 0, 1.006103515625, -0.4,-0.05) "
        id="g1257">
-      <use
-         xlink:href="#Symbol_8_0_Layer0_0_FILL"
-         id="use1255" />
+      <g
+         id="use1255">
+        <path
+           id="path11974"
+           d="M -8.6,22.15 Q -5.4974609,25.054687 -1,25.9 3.7619141,18.007227 5.6,8.75 L -7.9,6.3 q -1.2033203,7.925 -0.7,15.85 z"
+           inkscape:connector-curvature="0"
+           style="fill:#ffe0b1;stroke:none" />
+        <path
+           id="path11976"
+           d="M 6.1,8.85 6.6,5.9 -8.85,3.1 q -1.3,0.6 -0.5,2.95 L -7.9,6.3 5.6,8.75 Z"
+           inkscape:connector-curvature="0"
+           style="fill:#9e1e1e;stroke:none;fill-opacity:1" />
+        <path
+           id="path11978"
+           d="M 0.95,-6.8 H 0.9 Q 0.31777344,-6.9091797 -0.25,-6.95 -5.3230469,-7.0373047 -8.85,3.1 L 6.6,5.9 7.25,2.35 Q 7.85,-0.85 6,-3.6 4.15,-6.25 0.95,-6.8 Z"
+           inkscape:connector-curvature="0"
+           style="fill:#d62828;stroke:none;fill-opacity:1" />
+      </g>
     </g>
   </g>
   <g
      id="handLeft_FL_FL_FL_FL_FL_FL"
-     transform="matrix( 0.707122802734375, 0.70709228515625, -0.70709228515625, 0.707122802734375, 328.65,83.3) ">
+     transform="matrix( 0.707122802734375, 0.70709228515625, -0.70709228515625, 0.707122802734375, 328.65,83.3) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1, 0, 0, 1, 0,0) "
        id="g1262">
@@ -1400,14 +1560,37 @@
     <g
        transform="matrix( 0.9970703125, 0, 0, 1.006103515625, -0.4,-0.05) "
        id="g1267">
-      <use
-         xlink:href="#Symbol_8_0_Layer0_0_FILL"
-         id="use1265" />
+      <g
+         id="use1265">
+        <path
+           id="path11992"
+           d="M -8.6,22.15 Q -5.4974609,25.054687 -1,25.9 3.7619141,18.007227 5.6,8.75 L -7.9,6.3 q -1.2033203,7.925 -0.7,15.85 z"
+           inkscape:connector-curvature="0"
+           style="fill:#ffe0b1;stroke:none"
+           inkscape:export-xdpi="96"
+           inkscape:export-ydpi="96" />
+        <path
+           id="path11994"
+           d="M 6.1,8.85 6.6,5.9 -8.85,3.1 q -1.3,0.6 -0.5,2.95 L -7.9,6.3 5.6,8.75 Z"
+           inkscape:connector-curvature="0"
+           style="fill:#9e1e1e;stroke:none;fill-opacity:1"
+           inkscape:export-xdpi="96"
+           inkscape:export-ydpi="96" />
+        <path
+           id="path11996"
+           d="M 0.95,-6.8 H 0.9 Q 0.31777344,-6.9091797 -0.25,-6.95 -5.3230469,-7.0373047 -8.85,3.1 L 6.6,5.9 7.25,2.35 Q 7.85,-0.85 6,-3.6 4.15,-6.25 0.95,-6.8 Z"
+           inkscape:connector-curvature="0"
+           style="fill:#d62828;stroke:none;fill-opacity:1"
+           inkscape:export-xdpi="96"
+           inkscape:export-ydpi="96" />
+      </g>
     </g>
   </g>
   <g
      id="handRight_FL_FL_FL_FL_FL_FL_FL"
-     transform="matrix( -0.707122802734375, 0.7070770263671875, 0.7070770263671875, 0.707122802734375, 392.05,84.1) ">
+     transform="matrix( -0.707122802734375, 0.7070770263671875, 0.7070770263671875, 0.707122802734375, 392.05,84.1) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1, 0, 0, 1, 0,0) "
        id="g1272">
@@ -1418,7 +1601,9 @@
   </g>
   <g
      id="legLeft_FL_FL_FL_FL_FL_FL"
-     transform="matrix( -0.7071075439453125, -0.70709228515625, -0.70709228515625, 0.7071075439453125, 30.25,199.75) ">
+     transform="matrix( -0.7071075439453125, -0.70709228515625, -0.70709228515625, 0.7071075439453125, 30.25,199.75) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1.0071868896484375, 0, 0, 0.9892425537109375, 0,0) "
        id="g1277">
@@ -1429,7 +1614,9 @@
   </g>
   <g
      id="armRight_FL_FL_FL_FL_FL_FL_FL_FL"
-     transform="matrix( -1, 0, 0, 1, 60.6,179.75) ">
+     transform="matrix( -1, 0, 0, 1, 60.6,179.75) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 0.9970703125, 0, 0, 1.006103515625, -0.4,-0.05) "
        id="g1282">
@@ -1440,7 +1627,9 @@
   </g>
   <g
      id="handRight_FL_FL_FL_FL_FL_FL_FL_FL"
-     transform="matrix( 0.965911865234375, -0.258819580078125, 0.258819580078125, 0.965911865234375, 67.65,202.9) ">
+     transform="matrix( 0.965911865234375, -0.258819580078125, 0.258819580078125, 0.965911865234375, 67.65,202.9) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1, 0, 0, 1, 0,0) "
        id="g1287">
@@ -1451,7 +1640,9 @@
   </g>
   <g
      id="legRight_FL_FL_FL_FL_FL_FL"
-     transform="matrix( -0.7071075439453125, 0.70709228515625, 0.70709228515625, 0.7071075439453125, 53.9,202.25) ">
+     transform="matrix( -0.7071075439453125, 0.70709228515625, 0.70709228515625, 0.7071075439453125, 53.9,202.25) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1.0071868896484375, 0, 0, 0.9892425537109375, 0,0) "
        id="g1292">
@@ -1462,7 +1653,9 @@
   </g>
   <g
      id="body_FL_FL_FL_FL_FL_FL"
-     transform="matrix( 0.99761962890625, -0.0689544677734375, 0.0689544677734375, 0.99761962890625, 41.35,193.4) ">
+     transform="matrix( 0.99761962890625, -0.0689544677734375, 0.0689544677734375, 0.99761962890625, 41.35,193.4) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1.0129852294921875, 0, 0, 1.0081329345703125, 0.5,0.5) "
        id="g1297">
@@ -1473,7 +1666,9 @@
   </g>
   <g
      id="armLeft_FL_FL_FL_FL_FL_FL_FL"
-     transform="matrix( 0.86602783203125, 0.4999847412109375, -0.4999847412109375, 0.86602783203125, 22.9,179.75) ">
+     transform="matrix( 0.86602783203125, 0.4999847412109375, -0.4999847412109375, 0.86602783203125, 22.9,179.75) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 0.9970703125, 0, 0, 1.006103515625, -0.4,-0.05) "
        id="g1302">
@@ -1484,7 +1679,9 @@
   </g>
   <g
      id="handLeft_FL_FL_FL_FL_FL_FL_FL"
-     transform="matrix( 0.707122802734375, 0.7070770263671875, -0.7070770263671875, 0.707122802734375, 10.2,200.9) ">
+     transform="matrix( 0.707122802734375, 0.7070770263671875, -0.7070770263671875, 0.707122802734375, 10.2,200.9) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1, 0, 0, 1, 0,0) "
        id="g1307">
@@ -1495,7 +1692,9 @@
   </g>
   <g
      id="head_FL_FL_FL"
-     transform="matrix( 1, 0, 0, 1, 41.25,175.65) ">
+     transform="matrix( 1, 0, 0, 1, 41.25,175.65) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1, 0, 0, 1, 0,0) "
        id="g1312">
@@ -1534,7 +1733,9 @@
   </g>
   <g
      id="legLeft_FL_FL_FL_FL_FL_FL_FL"
-     transform="matrix( -0.8660125732421875, -0.5, -0.5, 0.8660125732421875, 116.5,198.85) ">
+     transform="matrix( -0.8660125732421875, -0.5, -0.5, 0.8660125732421875, 116.5,198.85) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1.0071868896484375, 0, 0, 0.9892425537109375, 0,0) "
        id="g1333">
@@ -1545,7 +1746,9 @@
   </g>
   <g
      id="armRight_FL_FL_FL_FL_FL_FL_FL_FL_FL"
-     transform="matrix( -0.935211181640625, -0.3540802001953125, -0.3540802001953125, 0.935211181640625, 136.9,179.15) ">
+     transform="matrix( -0.935211181640625, -0.3540802001953125, -0.3540802001953125, 0.935211181640625, 136.9,179.15) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 0.9970703125, 0, 0, 1.006103515625, -0.4,-0.05) "
        id="g1338">
@@ -1556,7 +1759,9 @@
   </g>
   <g
      id="handRight_FL_FL_FL_FL_FL_FL_FL_FL_FL"
-     transform="matrix( 0.9949798583984375, 0.0999603271484375, -0.0999603271484375, 0.9949798583984375, 135.3,203.3) ">
+     transform="matrix( 0.9949798583984375, 0.0999603271484375, -0.0999603271484375, 0.9949798583984375, 135.3,203.3) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1, 0, 0, 1, 0,0) "
        id="g1343">
@@ -1567,7 +1772,9 @@
   </g>
   <g
      id="legRight_FL_FL_FL_FL_FL_FL_FL"
-     transform="matrix( -0.9999847412109375, 0, 0, 0.9999847412109375, 125.15,203.85) ">
+     transform="matrix( -0.9999847412109375, 0, 0, 0.9999847412109375, 125.15,203.85) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1.0071868896484375, 0, 0, 0.9892425537109375, 0,0) "
        id="g1348">
@@ -1578,7 +1785,9 @@
   </g>
   <g
      id="body_FL_FL_FL_FL_FL_FL_FL"
-     transform="matrix( 0.9992218017578125, 0.0394287109375, -0.0394287109375, 0.9992218017578125, 121.1,192.5) ">
+     transform="matrix( 0.9992218017578125, 0.0394287109375, -0.0394287109375, 0.9992218017578125, 121.1,192.5) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1.0129852294921875, 0, 0, 1.0081329345703125, 0.5,0.5) "
        id="g1353">
@@ -1589,7 +1798,9 @@
   </g>
   <g
      id="armLeft_FL_FL_FL_FL_FL_FL_FL_FL"
-     transform="matrix( 0.9861297607421875, 0.16595458984375, -0.16595458984375, 0.9861297607421875, 106.1,176.7) ">
+     transform="matrix( 0.9861297607421875, 0.16595458984375, -0.16595458984375, 0.9861297607421875, 106.1,176.7) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 0.9970703125, 0, 0, 1.006103515625, -0.4,-0.05) "
        id="g1358">
@@ -1600,7 +1811,9 @@
   </g>
   <g
      id="handLeft_FL_FL_FL_FL_FL_FL_FL_FL"
-     transform="matrix( 0.9741668701171875, 0.22576904296875, -0.22576904296875, 0.9741668701171875, 102.5,202.1) ">
+     transform="matrix( 0.9741668701171875, 0.22576904296875, -0.22576904296875, 0.9741668701171875, 102.5,202.1) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1, 0, 0, 1, 0,0) "
        id="g1363">
@@ -1611,7 +1824,9 @@
   </g>
   <g
      id="head_FL_FL_FL_FL"
-     transform="matrix( 1, 0, 0, 1, 125,174.75) ">
+     transform="matrix( 1, 0, 0, 1, 125,174.75) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1, 0, 0, 1, 0,0) "
        id="g1368">
@@ -1650,7 +1865,9 @@
   </g>
   <g
      id="legLeft_FL_FL_FL_FL_FL_FL_FL_FL"
-     transform="matrix( 1, 0, 0, 1, 181.25,203.85) ">
+     transform="matrix( 1, 0, 0, 1, 181.25,203.85) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1.0071868896484375, 0, 0, 0.9892425537109375, 0,0) "
        id="g1389">
@@ -1661,7 +1878,9 @@
   </g>
   <g
      id="legRight_FL_FL_FL_FL_FL_FL_FL_FL"
-     transform="matrix( -1, 0, 0, 1, 202.4,203.85) ">
+     transform="matrix( -1, 0, 0, 1, 202.4,203.85) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1.0071868896484375, 0, 0, 0.9892425537109375, 0,0) "
        id="g1394">
@@ -1672,7 +1891,9 @@
   </g>
   <g
      id="body_FL_FL_FL_FL_FL_FL_FL_FL"
-     transform="matrix( 1, 0, 0, 1, 191.85,195.15) ">
+     transform="matrix( 1, 0, 0, 1, 191.85,195.15) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1.0129852294921875, 0, 0, 1.0081329345703125, 0.5,0.5) "
        id="g1399">
@@ -1683,7 +1904,9 @@
   </g>
   <g
      id="armLeft_FL_FL_FL_FL_FL_FL_FL_FL_FL"
-     transform="matrix( 1, 0, 0, 1, 170.9,180.25) ">
+     transform="matrix( 1, 0, 0, 1, 170.9,180.25) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 0.9970703125, 0, 0, 1.006103515625, -0.4,-0.05) "
        id="g1404">
@@ -1694,7 +1917,9 @@
   </g>
   <g
      id="handLeft_FL_FL_FL_FL_FL_FL_FL_FL_FL"
-     transform="matrix( 1, 0, 0, 1, 172.1,206.6) ">
+     transform="matrix( 1, 0, 0, 1, 172.1,206.6) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1, 0, 0, 1, 0,0) "
        id="g1409">
@@ -1705,7 +1930,9 @@
   </g>
   <g
      id="armRight_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL"
-     transform="matrix( -0.220489501953125, 0.9753875732421875, 0.9753875732421875, 0.220489501953125, 205.1,179.75) ">
+     transform="matrix( -0.220489501953125, 0.9753875732421875, 0.9753875732421875, 0.220489501953125, 205.1,179.75) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 0.9970703125, 0, 0, 1.006103515625, -0.4,-0.05) "
        id="g1414">
@@ -1716,7 +1943,9 @@
   </g>
   <g
      id="handRight_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL"
-     transform="matrix( 0.258819580078125, -0.965911865234375, 0.965911865234375, 0.258819580078125, 232.25,178.05) ">
+     transform="matrix( 0.258819580078125, -0.965911865234375, 0.965911865234375, 0.258819580078125, 232.25,178.05) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1, 0, 0, 1, 0,0) "
        id="g1419">
@@ -1727,7 +1956,9 @@
   </g>
   <g
      id="legLeft_FL_FL_FL_FL_FL_FL_FL_FL_FL"
-     transform="matrix( 1, 0, 0, 1, 341.9,203.85) ">
+     transform="matrix( 1, 0, 0, 1, 341.9,203.85) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1.0071868896484375, 0, 0, 0.9892425537109375, 0,0) "
        id="g1424">
@@ -1738,7 +1969,9 @@
   </g>
   <g
      id="legRight_FL_FL_FL_FL_FL_FL_FL_FL_FL"
-     transform="matrix( -0.6073760986328125, 0.7933807373046875, 0.8723297119140625, 0.506927490234375, 364.05,200.35) ">
+     transform="matrix( -0.6073760986328125, 0.7933807373046875, 0.8723297119140625, 0.506927490234375, 364.05,200.35) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1.0071868896484375, 0, 0, 0.9892425537109375, 0,0) "
        id="g1429">
@@ -1749,7 +1982,9 @@
   </g>
   <g
      id="body_FL_FL_FL_FL_FL_FL_FL_FL_FL"
-     transform="matrix( 0.8892822265625, -0.1226348876953125, 0.0825958251953125, 0.9965667724609375, 351,193.55) ">
+     transform="matrix( 0.8892822265625, -0.1226348876953125, 0.0825958251953125, 0.9965667724609375, 351,193.55) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1.0129852294921875, 0, 0, 1.0081329345703125, 0.5,0.5) "
        id="g1434">
@@ -1760,7 +1995,9 @@
   </g>
   <g
      id="armLeft_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL"
-     transform="matrix( 0.9965667724609375, -0.0825958251953125, 0.0825958251953125, 0.9965667724609375, 329.9,180.45) ">
+     transform="matrix( 0.9965667724609375, -0.0825958251953125, 0.0825958251953125, 0.9965667724609375, 329.9,180.45) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 0.9970703125, 0, 0, 1.006103515625, -0.4,-0.05) "
        id="g1439">
@@ -1771,7 +2008,9 @@
   </g>
   <g
      id="handLeft_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL"
-     transform="matrix( 0.9965667724609375, -0.0825958251953125, 0.0825958251953125, 0.9965667724609375, 333.1,206.05) ">
+     transform="matrix( 0.9965667724609375, -0.0825958251953125, 0.0825958251953125, 0.9965667724609375, 333.1,206.05) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1, 0, 0, 1, 0,0) "
        id="g1444">
@@ -1782,7 +2021,9 @@
   </g>
   <g
      id="armRight_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL"
-     transform="matrix( 0.6817626953125, 0.731536865234375, 0.731536865234375, -0.6817626953125, 363.6,169.95) ">
+     transform="matrix( 0.6817626953125, 0.731536865234375, 0.731536865234375, -0.6817626953125, 363.6,169.95) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 0.9970703125, 0, 0, 1.006103515625, -0.4,-0.05) "
        id="g1449">
@@ -1793,7 +2034,9 @@
   </g>
   <g
      id="handRight_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL"
-     transform="matrix( 0.904327392578125, 0.4267425537109375, 0.4267425537109375, -0.904327392578125, 382.45,150.35) ">
+     transform="matrix( 0.904327392578125, 0.4267425537109375, 0.4267425537109375, -0.904327392578125, 382.45,150.35) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1, 0, 0, 1, 0,0) "
        id="g1454">
@@ -1804,7 +2047,9 @@
   </g>
   <g
      id="head_FL_FL_FL_FL_FL"
-     transform="matrix( 0.9965667724609375, -0.0825958251953125, 0.0825958251953125, 0.9965667724609375, 350.3,174.6) ">
+     transform="matrix( 0.9965667724609375, -0.0825958251953125, 0.0825958251953125, 0.9965667724609375, 350.3,174.6) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1, 0, 0, 1, 0,0) "
        id="g1459">
@@ -1843,7 +2088,9 @@
   </g>
   <g
      id="legLeft_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL"
-     transform="matrix( 0.86602783203125, 0.4999847412109375, -0.4999847412109375, 0.86602783203125, 421.3,201.35) ">
+     transform="matrix( 0.86602783203125, 0.4999847412109375, -0.4999847412109375, 0.86602783203125, 421.3,201.35) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1.0071868896484375, 0, 0, 0.9892425537109375, 0,0) "
        id="g1480">
@@ -1854,7 +2101,9 @@
   </g>
   <g
      id="legRight_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL"
-     transform="matrix( -1, 0, 0, 1, 439.2,203.85) ">
+     transform="matrix( -1, 0, 0, 1, 439.2,203.85) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1.0071868896484375, 0, 0, 0.9892425537109375, 0,0) "
        id="g1485">
@@ -1865,7 +2114,9 @@
   </g>
   <g
      id="body_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL"
-     transform="matrix( 0.91351318359375, 0.183197021484375, -0.1000213623046875, 0.994964599609375, 431.2,193.7) ">
+     transform="matrix( 0.91351318359375, 0.183197021484375, -0.1000213623046875, 0.994964599609375, 431.2,193.7) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1.0129852294921875, 0, 0, 1.0081329345703125, 0.5,0.5) "
        id="g1490">
@@ -1876,7 +2127,9 @@
   </g>
   <g
      id="armLeft_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL"
-     transform="matrix( 0.994964599609375, 0.1000213623046875, -0.1000213623046875, 0.994964599609375, 411.85,176.75) ">
+     transform="matrix( 0.994964599609375, 0.1000213623046875, -0.1000213623046875, 0.994964599609375, 411.85,176.75) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 0.9970703125, 0, 0, 1.006103515625, -0.4,-0.05) "
        id="g1495">
@@ -1887,7 +2140,9 @@
   </g>
   <g
      id="handLeft_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL"
-     transform="matrix( 0.994964599609375, 0.1000213623046875, -0.1000213623046875, 0.994964599609375, 410.3,204.4) ">
+     transform="matrix( 0.994964599609375, 0.1000213623046875, -0.1000213623046875, 0.994964599609375, 410.3,204.4) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1, 0, 0, 1, 0,0) "
        id="g1500">
@@ -1898,7 +2153,9 @@
   </g>
   <g
      id="armRight_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL"
-     transform="matrix( -0.402496337890625, 0.915374755859375, 0.915374755859375, 0.402496337890625, 445.1,177.4) ">
+     transform="matrix( -0.402496337890625, 0.915374755859375, 0.915374755859375, 0.402496337890625, 445.1,177.4) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 0.9970703125, 0, 0, 1.006103515625, -0.4,-0.05) "
        id="g1505">
@@ -1909,7 +2166,9 @@
   </g>
   <g
      id="handRight_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL"
-     transform="matrix( 0.361968994140625, 0.9321136474609375, 0.9321136474609375, -0.361968994140625, 472.35,183.95) ">
+     transform="matrix( 0.361968994140625, 0.9321136474609375, 0.9321136474609375, -0.361968994140625, 472.35,183.95) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1, 0, 0, 1, 0,0) "
        id="g1510">
@@ -1920,7 +2179,9 @@
   </g>
   <g
      transform="matrix( 0.9901885986328125, 0.1395721435546875, -0.1395721435546875, 0.9901885986328125, 433.45,176.4) "
-     id="g1529">
+     id="g1529"
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1, 0, 0, 1, 0,0) "
        id="g1515">
@@ -1952,7 +2213,9 @@
   </g>
   <g
      id="legLeft_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL"
-     transform="matrix( 1, 0, 0, 1, 507.4,203.85) ">
+     transform="matrix( 1, 0, 0, 1, 507.4,203.85) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1.0071868896484375, 0, 0, 0.9892425537109375, 0,0) "
        id="g1533">
@@ -1963,7 +2226,9 @@
   </g>
   <g
      id="armRight_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL"
-     transform="matrix( -0.9482879638671875, 0.3173675537109375, 0.3173675537109375, 0.9482879638671875, 526.4,172.3) ">
+     transform="matrix( -0.9482879638671875, 0.3173675537109375, 0.3173675537109375, 0.9482879638671875, 526.4,172.3) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 0.9970703125, 0, 0, 1.006103515625, -0.4,-0.05) "
        id="g1538">
@@ -1974,7 +2239,9 @@
   </g>
   <g
      id="handRight_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL"
-     transform="matrix( -0.9482879638671875, 0.3173675537109375, 0.3173675537109375, 0.9482879638671875, 533.4,197) ">
+     transform="matrix( -0.9482879638671875, 0.3173675537109375, 0.3173675537109375, 0.9482879638671875, 533.4,197) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1, 0, 0, 1, 0,0) "
        id="g1543">
@@ -1985,7 +2252,9 @@
   </g>
   <g
      id="legRight_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL"
-     transform="matrix( -0.6176605224609375, 0.83392333984375, 0.997589111328125, 0.272064208984375, 535.05,196.35) ">
+     transform="matrix( -0.6176605224609375, 0.83392333984375, 0.997589111328125, 0.272064208984375, 535.05,196.35) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1.0071868896484375, 0, 0, 0.9892425537109375, 0,0) "
        id="g1548">
@@ -1996,7 +2265,9 @@
   </g>
   <g
      id="body_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL"
-     transform="matrix( 0.899658203125, -0.180694580078125, 0.11248779296875, 0.9936370849609375, 515.8,192.35) ">
+     transform="matrix( 0.899658203125, -0.180694580078125, 0.11248779296875, 0.9936370849609375, 515.8,192.35) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1.0129852294921875, 0, 0, 1.0081329345703125, 0.5,0.5) "
        id="g1553">
@@ -2007,7 +2278,9 @@
   </g>
   <g
      id="armLeft_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL"
-     transform="matrix( 0.9702606201171875, 0.2420196533203125, -0.2420196533203125, 0.9702606201171875, 496.75,177.45) ">
+     transform="matrix( 0.9702606201171875, 0.2420196533203125, -0.2420196533203125, 0.9702606201171875, 496.75,177.45) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 0.9970703125, 0, 0, 1.006103515625, -0.4,-0.05) "
        id="g1558">
@@ -2018,7 +2291,9 @@
   </g>
   <g
      id="handLeft_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL"
-     transform="matrix( 0.9889068603515625, 0.14849853515625, -0.14849853515625, 0.9889068603515625, 492.05,203.8) ">
+     transform="matrix( 0.9889068603515625, 0.14849853515625, -0.14849853515625, 0.9889068603515625, 492.05,203.8) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1, 0, 0, 1, 0,0) "
        id="g1563">
@@ -2029,7 +2304,9 @@
   </g>
   <g
      id="legLeft_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL"
-     transform="matrix( 1, 0, 0, 1, 590.8,93.85) ">
+     transform="matrix( 1, 0, 0, 1, 590.8,93.85) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1.0071868896484375, 0, 0, 0.9892425537109375, 0,0) "
        id="g1568">
@@ -2040,7 +2317,9 @@
   </g>
   <g
      id="legRight_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL"
-     transform="matrix( -1, 0, 0, 1, 611.95,93.85) ">
+     transform="matrix( -1, 0, 0, 1, 611.95,93.85) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1.0071868896484375, 0, 0, 0.9892425537109375, 0,0) "
        id="g1573">
@@ -2051,7 +2330,9 @@
   </g>
   <g
      id="body_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL"
-     transform="matrix( 1, 0, 0, 1, 601.4,85.15) ">
+     transform="matrix( 1, 0, 0, 1, 601.4,85.15) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1.0129852294921875, 0, 0, 1.0081329345703125, 0.5,0.5) "
        id="g1578">
@@ -2062,7 +2343,9 @@
   </g>
   <g
      id="armLeft_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL"
-     transform="matrix( 0.829071044921875, -0.5591278076171875, -0.5591278076171875, -0.829071044921875, 584.05,66.6) ">
+     transform="matrix( 0.829071044921875, -0.5591278076171875, -0.5591278076171875, -0.829071044921875, 584.05,66.6) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 0.9970703125, 0, 0, 1.006103515625, -0.4,-0.05) "
        id="g1583">
@@ -2073,7 +2356,9 @@
   </g>
   <g
      id="handLeft_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL"
-     transform="matrix( 0.829071044921875, -0.5591278076171875, -0.5591278076171875, -0.829071044921875, 570.3,43.65) ">
+     transform="matrix( 0.829071044921875, -0.5591278076171875, -0.5591278076171875, -0.829071044921875, 570.3,43.65) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1, 0, 0, 1, 0,0) "
        id="g1588">
@@ -2084,7 +2369,9 @@
   </g>
   <g
      id="armRight_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL"
-     transform="matrix( -0.871307373046875, -0.4907073974609375, 0.4907073974609375, -0.871307373046875, 617.75,67.2) ">
+     transform="matrix( -0.871307373046875, -0.4907073974609375, 0.4907073974609375, -0.871307373046875, 617.75,67.2) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 0.9970703125, 0, 0, 1.006103515625, -0.4,-0.05) "
        id="g1593">
@@ -2095,7 +2382,9 @@
   </g>
   <g
      id="handRight_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL"
-     transform="matrix( -0.871307373046875, -0.4907073974609375, 0.4907073974609375, -0.871307373046875, 629.7,43.2) ">
+     transform="matrix( -0.871307373046875, -0.4907073974609375, 0.4907073974609375, -0.871307373046875, 629.7,43.2) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1, 0, 0, 1, 0,0) "
        id="g1598">
@@ -2106,7 +2395,9 @@
   </g>
   <g
      id="head_FL_FL_FL_FL_FL_FL"
-     transform="matrix( 0.9978790283203125, -0.065093994140625, 0.065093994140625, 0.9978790283203125, 601.3,66.15) ">
+     transform="matrix( 0.9978790283203125, -0.065093994140625, 0.065093994140625, 0.9978790283203125, 601.3,66.15) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1, 0, 0, 1, 0,0) "
        id="g1603">
@@ -2145,7 +2436,9 @@
   </g>
   <g
      id="legLeft_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL"
-     transform="matrix( -0.939910888671875, -0.3414154052734375, -0.3414154052734375, 0.939910888671875, 591.05,196.85) ">
+     transform="matrix( -0.939910888671875, -0.3414154052734375, -0.3414154052734375, 0.939910888671875, 591.05,196.85) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1.0071868896484375, 0, 0, 0.9892425537109375, 0,0) "
        id="g1624">
@@ -2156,7 +2449,9 @@
   </g>
   <g
      id="legRight_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL"
-     transform="matrix( -0.9890594482421875, 0.1475067138671875, 0.1475067138671875, 0.9890594482421875, 611.05,196.8) ">
+     transform="matrix( -0.9890594482421875, 0.1475067138671875, 0.1475067138671875, 0.9890594482421875, 611.05,196.8) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1.0071868896484375, 0, 0, 0.9892425537109375, 0,0) "
        id="g1629">
@@ -2167,7 +2462,9 @@
   </g>
   <g
      id="body_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL"
-     transform="matrix( 0.8961029052734375, 0, 0, 1, 600.65,189.15) ">
+     transform="matrix( 0.8961029052734375, 0, 0, 1, 600.65,189.15) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1.0129852294921875, 0, 0, 1.0081329345703125, 0.5,0.5) "
        id="g1634">
@@ -2178,7 +2475,9 @@
   </g>
   <g
      id="armLeft_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL"
-     transform="matrix( 0.646881103515625, 0.7625885009765625, -0.7625885009765625, 0.646881103515625, 585.35,174.55) ">
+     transform="matrix( 0.646881103515625, 0.7625885009765625, -0.7625885009765625, 0.646881103515625, 585.35,174.55) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 0.9970703125, 0, 0, 1.006103515625, -0.4,-0.05) "
        id="g1639">
@@ -2189,7 +2488,9 @@
   </g>
   <g
      id="handLeft_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL"
-     transform="matrix( 0.25885009765625, 0.9658966064453125, -0.9658966064453125, 0.25885009765625, 567.4,189.6) ">
+     transform="matrix( 0.25885009765625, 0.9658966064453125, -0.9658966064453125, 0.25885009765625, 567.4,189.6) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1, 0, 0, 1, 0,0) "
        id="g1644">
@@ -2200,7 +2501,9 @@
   </g>
   <g
      id="armRight_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL"
-     transform="matrix( -0.62646484375, 0.779449462890625, 0.779449462890625, 0.62646484375, 613.65,173.3) ">
+     transform="matrix( -0.62646484375, 0.779449462890625, 0.779449462890625, 0.62646484375, 613.65,173.3) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 0.9970703125, 0, 0, 1.006103515625, -0.4,-0.05) "
        id="g1649">
@@ -2211,7 +2514,9 @@
   </g>
   <g
      id="handRight_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL"
-     transform="matrix( -0.42279052734375, 0.9062042236328125, 0.9062042236328125, 0.42279052734375, 632.05,187.75) ">
+     transform="matrix( -0.42279052734375, 0.9062042236328125, 0.9062042236328125, 0.42279052734375, 632.05,187.75) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1, 0, 0, 1, 0,0) "
        id="g1654">
@@ -2222,7 +2527,9 @@
   </g>
   <g
      id="legLeft_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL"
-     transform="matrix( -0.52630615234375, -0.8502655029296875, -0.8502655029296875, 0.52630615234375, 126,311.3) ">
+     transform="matrix( -0.52630615234375, -0.8502655029296875, -0.8502655029296875, 0.52630615234375, 126,311.3) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1.0071868896484375, 0, 0, 0.9892425537109375, 0,0) "
        id="g1659">
@@ -2233,7 +2540,9 @@
   </g>
   <g
      id="legRight_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL"
-     transform="matrix( -0.70709228515625, 0.70709228515625, 0.70709228515625, 0.7071075439453125, 139.05,300.75) ">
+     transform="matrix( -0.70709228515625, 0.70709228515625, 0.70709228515625, 0.7071075439453125, 139.05,300.75) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1.0071868896484375, 0, 0, 0.9892425537109375, 0,0) "
        id="g1664">
@@ -2244,7 +2553,9 @@
   </g>
   <g
      id="armRight_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL"
-     transform="matrix( 0.168670654296875, 0.9856719970703125, 0.9856719970703125, -0.168670654296875, 125.55,284.35) ">
+     transform="matrix( 0.168670654296875, 0.9856719970703125, 0.9856719970703125, -0.168670654296875, 125.55,284.35) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 0.9970703125, 0, 0, 1.006103515625, -0.4,-0.05) "
        id="g1669">
@@ -2255,7 +2566,9 @@
   </g>
   <g
      id="handRight_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL"
-     transform="matrix( 0.168670654296875, 0.9856719970703125, 0.9856719970703125, -0.168670654296875, 150.8,281.3) ">
+     transform="matrix( 0.168670654296875, 0.9856719970703125, 0.9856719970703125, -0.168670654296875, 150.8,281.3) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1, 0, 0, 1, 0,0) "
        id="g1674">
@@ -2266,7 +2579,9 @@
   </g>
   <g
      id="body_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL"
-     transform="matrix( 0.4500732421875, -0.654541015625, 0.947845458984375, 0.3809814453125, 127.55,300.75) ">
+     transform="matrix( 0.4500732421875, -0.654541015625, 0.947845458984375, 0.3809814453125, 127.55,300.75) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1.0129852294921875, 0, 0, 1.0081329345703125, 0.5,0.5) "
        id="g1679">
@@ -2277,7 +2592,9 @@
   </g>
   <g
      id="armLeft_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL"
-     transform="matrix( 0.7070770263671875, 0.70709228515625, -0.70709228515625, 0.7070770263671875, 108.1,298.95) ">
+     transform="matrix( 0.7070770263671875, 0.70709228515625, -0.70709228515625, 0.7070770263671875, 108.1,298.95) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 0.9970703125, 0, 0, 1.006103515625, -0.4,-0.05) "
        id="g1684">
@@ -2288,7 +2605,9 @@
   </g>
   <g
      id="handLeft_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL"
-     transform="matrix( 0.8659820556640625, 0.5, -0.499969482421875, 0.865997314453125, 92.15,318.25) ">
+     transform="matrix( 0.8659820556640625, 0.5, -0.499969482421875, 0.865997314453125, 92.15,318.25) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1, 0, 0, 1, 0,0) "
        id="g1689">
@@ -2299,7 +2618,9 @@
   </g>
   <g
      id="body_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL"
-     transform="matrix( 1, 0, 0, 1, 681.9,84.15) ">
+     transform="matrix( 1, 0, 0, 1, 681.9,84.15) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1.0129852294921875, 0, 0, 1.0081329345703125, 0.5,0.5) "
        id="g1694">
@@ -2310,7 +2631,9 @@
   </g>
   <g
      id="armLeft_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL"
-     transform="matrix( 0.829071044921875, -0.5591278076171875, -0.5591278076171875, -0.829071044921875, 664.55,67.6) ">
+     transform="matrix( 0.829071044921875, -0.5591278076171875, -0.5591278076171875, -0.829071044921875, 664.55,67.6) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 0.9970703125, 0, 0, 1.006103515625, -0.4,-0.05) "
        id="g1699">
@@ -2321,7 +2644,9 @@
   </g>
   <g
      id="handLeft_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL"
-     transform="matrix( 0.829071044921875, -0.5591278076171875, -0.5591278076171875, -0.829071044921875, 650.8,44.65) ">
+     transform="matrix( 0.829071044921875, -0.5591278076171875, -0.5591278076171875, -0.829071044921875, 650.8,44.65) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1, 0, 0, 1, 0,0) "
        id="g1704">
@@ -2332,7 +2657,9 @@
   </g>
   <g
      id="armRight_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL"
-     transform="matrix( -0.871307373046875, -0.4907073974609375, 0.4907073974609375, -0.871307373046875, 698.25,68.2) ">
+     transform="matrix( -0.871307373046875, -0.4907073974609375, 0.4907073974609375, -0.871307373046875, 698.25,68.2) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 0.9970703125, 0, 0, 1.006103515625, -0.4,-0.05) "
        id="g1709">
@@ -2343,7 +2670,9 @@
   </g>
   <g
      id="handRight_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL"
-     transform="matrix( -0.871307373046875, -0.4907073974609375, 0.4907073974609375, -0.871307373046875, 710.15,44.65) ">
+     transform="matrix( -0.871307373046875, -0.4907073974609375, 0.4907073974609375, -0.871307373046875, 710.15,44.65) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1, 0, 0, 1, 0,0) "
        id="g1714">
@@ -2354,7 +2683,9 @@
   </g>
   <g
      id="head_FL_FL_FL_FL_FL_FL_FL"
-     transform="matrix( 0.9978790283203125, -0.065093994140625, 0.065093994140625, 0.9978790283203125, 681.8,67.15) ">
+     transform="matrix( 0.9978790283203125, -0.065093994140625, 0.065093994140625, 0.9978790283203125, 681.8,67.15) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1, 0, 0, 1, 0,0) "
        id="g1719">
@@ -2393,7 +2724,9 @@
   </g>
   <g
      id="legLeft_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL"
-     transform="matrix( -0.96484375, -0.2628021240234375, -0.2628021240234375, 0.96484375, 672,198.85) ">
+     transform="matrix( -0.96484375, -0.2628021240234375, -0.2628021240234375, 0.96484375, 672,198.85) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1.0071868896484375, 0, 0, 0.9892425537109375, 0,0) "
        id="g1740">
@@ -2404,7 +2737,9 @@
   </g>
   <g
      id="legRight_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL"
-     transform="matrix( -0.999755859375, 0.022491455078125, 0.022491455078125, 0.999755859375, 692,194.8) ">
+     transform="matrix( -0.999755859375, 0.022491455078125, 0.022491455078125, 0.999755859375, 692,194.8) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1.0071868896484375, 0, 0, 0.9892425537109375, 0,0) "
        id="g1745">
@@ -2415,7 +2750,9 @@
   </g>
   <g
      id="body_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL"
-     transform="matrix( 0.8961029052734375, 0, 0, 1, 681.6,189.15) ">
+     transform="matrix( 0.8961029052734375, 0, 0, 1, 681.6,189.15) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1.0129852294921875, 0, 0, 1.0081329345703125, 0.5,0.5) "
        id="g1750">
@@ -2426,7 +2763,9 @@
   </g>
   <g
      id="armLeft_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL"
-     transform="matrix( 0.760528564453125, 0.6492919921875, -0.6492919921875, 0.760528564453125, 665.35,173.15) ">
+     transform="matrix( 0.760528564453125, 0.6492919921875, -0.6492919921875, 0.760528564453125, 665.35,173.15) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 0.9970703125, 0, 0, 1.006103515625, -0.4,-0.05) "
        id="g1755">
@@ -2437,7 +2776,9 @@
   </g>
   <g
      id="handLeft_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL"
-     transform="matrix( 0.632080078125, 0.7748565673828125, -0.7748565673828125, 0.632080078125, 650.1,191.05) ">
+     transform="matrix( 0.632080078125, 0.7748565673828125, -0.7748565673828125, 0.632080078125, 650.1,191.05) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1, 0, 0, 1, 0,0) "
        id="g1760">
@@ -2448,7 +2789,9 @@
   </g>
   <g
      id="armRight_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL"
-     transform="matrix( -0.7285614013671875, 0.68499755859375, 0.68499755859375, 0.7285614013671875, 695.4,172.05) ">
+     transform="matrix( -0.7285614013671875, 0.68499755859375, 0.68499755859375, 0.7285614013671875, 695.4,172.05) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 0.9970703125, 0, 0, 1.006103515625, -0.4,-0.05) "
        id="g1765">
@@ -2459,7 +2802,9 @@
   </g>
   <g
      id="handRight_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL"
-     transform="matrix( -0.5598602294921875, 0.8285369873046875, 0.8285369873046875, 0.5598602294921875, 711.05,188.9) ">
+     transform="matrix( -0.5598602294921875, 0.8285369873046875, 0.8285369873046875, 0.5598602294921875, 711.05,188.9) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1, 0, 0, 1, 0,0) "
        id="g1770">
@@ -2470,7 +2815,9 @@
   </g>
   <g
      id="legLeft_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL"
-     transform="matrix( 1, 0, -0.0464324951171875, 1, 262.25,203.85) ">
+     transform="matrix( 1, 0, -0.0464324951171875, 1, 262.25,203.85) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1.0071868896484375, 0, 0, 0.9892425537109375, 0,0) "
        id="g1775">
@@ -2481,7 +2828,9 @@
   </g>
   <g
      id="legRight_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL"
-     transform="matrix( -1, 0, 0.2167205810546875, 1, 281.4,203.85) ">
+     transform="matrix( -1, 0, 0.2167205810546875, 1, 281.4,203.85) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1.0071868896484375, 0, 0, 0.9892425537109375, 0,0) "
        id="g1780">
@@ -2492,7 +2841,9 @@
   </g>
   <g
      id="armRight_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL"
-     transform="matrix( -0.8426971435546875, 0.5383758544921875, 0.287139892578125, 1.003204345703125, 286.4,178.75) ">
+     transform="matrix( -0.8426971435546875, 0.5383758544921875, 0.287139892578125, 1.003204345703125, 286.4,178.75) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 0.9970703125, 0, 0, 1.006103515625, -0.4,-0.05) "
        id="g1785">
@@ -2503,7 +2854,9 @@
   </g>
   <g
      id="body_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL"
-     transform="matrix( 0.9220733642578125, 0, -0.1209259033203125, 1, 270.85,195.15) ">
+     transform="matrix( 0.9220733642578125, 0, -0.1209259033203125, 1, 270.85,195.15) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1.0129852294921875, 0, 0, 1.0081329345703125, 0.5,0.5) "
        id="g1790">
@@ -2514,7 +2867,9 @@
   </g>
   <g
      id="legLeft_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL"
-     transform="matrix( -0.86602783203125, -0.499969482421875, -0.499969482421875, 0.86602783203125, 198.55,309.4) ">
+     transform="matrix( -0.86602783203125, -0.499969482421875, -0.499969482421875, 0.86602783203125, 198.55,309.4) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1.0071868896484375, 0, 0, 0.9892425537109375, 0,0) "
        id="g1795">
@@ -2525,7 +2880,9 @@
   </g>
   <g
      id="armRight_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL"
-     transform="matrix( 0.915496826171875, 0.402313232421875, 0.402313232421875, -0.915496826171875, 222.45,271.25) ">
+     transform="matrix( 0.915496826171875, 0.402313232421875, 0.402313232421875, -0.915496826171875, 222.45,271.25) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 0.9970703125, 0, 0, 1.006103515625, -0.4,-0.05) "
        id="g1800">
@@ -2536,7 +2893,9 @@
   </g>
   <g
      id="body_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL"
-     transform="matrix( 0.8961029052734375, -0.1512908935546875, 0, 1, 207.35,295.15) ">
+     transform="matrix( 0.8961029052734375, -0.1512908935546875, 0, 1, 207.35,295.15) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1.0129852294921875, 0, 0, 1.0081329345703125, 0.5,0.5) "
        id="g1805">
@@ -2547,7 +2906,9 @@
   </g>
   <g
      id="armLeft_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL"
-     transform="matrix( 0.7775726318359375, 0.628753662109375, -0.628753662109375, 0.7775726318359375, 189.35,282.35) ">
+     transform="matrix( 0.7775726318359375, 0.628753662109375, -0.628753662109375, 0.7775726318359375, 189.35,282.35) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 0.9970703125, 0, 0, 1.006103515625, -0.4,-0.05) "
        id="g1810">
@@ -2558,7 +2919,9 @@
   </g>
   <g
      id="handLeft_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL"
-     transform="matrix( 0.7437591552734375, 0.668426513671875, -0.668426513671875, 0.7437591552734375, 172.55,304.85) ">
+     transform="matrix( 0.7437591552734375, 0.668426513671875, -0.668426513671875, 0.7437591552734375, 172.55,304.85) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1, 0, 0, 1, 0,0) "
        id="g1815">
@@ -2569,7 +2932,9 @@
   </g>
   <g
      id="handRight_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL"
-     transform="matrix( 0.602294921875, 0.7982330322265625, 0.7982330322265625, -0.602294921875, 233.7,252.15) ">
+     transform="matrix( 0.602294921875, 0.7982330322265625, 0.7982330322265625, -0.602294921875, 233.7,252.15) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1, 0, 0, 1, 0,0) "
        id="g1820">
@@ -2580,7 +2945,9 @@
   </g>
   <g
      id="legRight_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL"
-     transform="matrix( -0.8993072509765625, -0.2700347900390625, -0.2588043212890625, 0.9659271240234375, 220.15,300.9) ">
+     transform="matrix( -0.8993072509765625, -0.2700347900390625, -0.2588043212890625, 0.9659271240234375, 220.15,300.9) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1.0071868896484375, 0, 0, 0.9892425537109375, 0,0) "
        id="g1825">
@@ -2591,7 +2958,9 @@
   </g>
   <g
      id="legLeft_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL"
-     transform="matrix( -1.0149383544921875, 0.3154144287109375, 0.6787109375, 0.84124755859375, 288.3,310.6) ">
+     transform="matrix( -1.0149383544921875, 0.3154144287109375, 0.6787109375, 0.84124755859375, 288.3,310.6) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1.0071868896484375, 0, 0, 0.9892425537109375, 0,0) "
        id="g1830">
@@ -2602,7 +2971,9 @@
   </g>
   <g
      id="legRight_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL"
-     transform="matrix( -0.7070770263671875, 0.707061767578125, 0.6151123046875, 0.7990264892578125, 270.75,311.9) ">
+     transform="matrix( -0.7070770263671875, 0.707061767578125, 0.6151123046875, 0.7990264892578125, 270.75,311.9) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1.0071868896484375, 0, 0, 0.9892425537109375, 0,0) "
        id="g1835">
@@ -2613,7 +2984,9 @@
   </g>
   <g
      id="body_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL"
-     transform="matrix( 0.922210693359375, -0.0208587646484375, 0, 1, 281.1,301.65) ">
+     transform="matrix( 0.922210693359375, -0.0208587646484375, 0, 1, 281.1,301.65) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1.0129852294921875, 0, 0, 1.0081329345703125, 0.5,0.5) "
        id="g1840">
@@ -2624,7 +2997,9 @@
   </g>
   <g
      id="armRight_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL"
-     transform="matrix( 0.6365509033203125, 0.771240234375, 0.69598388671875, -0.5744476318359375, 292.35,288.35) ">
+     transform="matrix( 0.6365509033203125, 0.771240234375, 0.69598388671875, -0.5744476318359375, 292.35,288.35) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 0.9970703125, 0, 0, 1.006103515625, -0.4,-0.05) "
        id="g1845">
@@ -2635,7 +3010,9 @@
   </g>
   <g
      id="head_FL_FL_FL_FL_FL_FL_FL_FL"
-     transform="matrix( -0.99542236328125, 0.0955657958984375, 0.0955657958984375, 0.99542236328125, 278.5,285.15) ">
+     transform="matrix( -0.99542236328125, 0.0955657958984375, 0.0955657958984375, 0.99542236328125, 278.5,285.15) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1, 0, 0, 1, 0,0) "
        id="g1850">
@@ -2674,7 +3051,9 @@
   </g>
   <g
      id="handRight_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL"
-     transform="matrix( -0.5000152587890625, 0.865997314453125, 0.865997314453125, 0.5000152587890625, 309.35,283.5) ">
+     transform="matrix( -0.5000152587890625, 0.865997314453125, 0.865997314453125, 0.5000152587890625, 309.35,283.5) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1, 0, 0, 1, 0,0) "
        id="g1871">
@@ -2685,7 +3064,9 @@
   </g>
   <g
      id="armLeft_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL"
-     transform="matrix( 0.5000152587890625, -0.865997314453125, 0.7815093994140625, 0.4512176513671875, 260.95,292.65) ">
+     transform="matrix( 0.5000152587890625, -0.865997314453125, 0.7815093994140625, 0.4512176513671875, 260.95,292.65) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 0.9970703125, 0, 0, 1.006103515625, -0.4,-0.05) "
        id="g1876">
@@ -2696,7 +3077,9 @@
   </g>
   <g
      id="handLeft_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL"
-     transform="matrix( 0.2588043212890625, -0.9659271240234375, 0.9659271240234375, 0.2588043212890625, 281.95,301.85) ">
+     transform="matrix( 0.2588043212890625, -0.9659271240234375, 0.9659271240234375, 0.2588043212890625, 281.95,301.85) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1, 0, 0, 1, 0,0) "
        id="g1881">
@@ -2791,7 +3174,9 @@
   </g>
   <g
      id="armLeft_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL"
-     transform="matrix( 0.9659271240234375, 0.2588043212890625, -0.233551025390625, 0.8716888427734375, 343.55,290.35) ">
+     transform="matrix( 0.9659271240234375, 0.2588043212890625, -0.233551025390625, 0.8716888427734375, 343.55,290.35) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 0.9970703125, 0, 0, 1.006103515625, -0.4,-0.05) "
        id="g1927">
@@ -2802,7 +3187,9 @@
   </g>
   <g
      id="handLeft_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL"
-     transform="matrix( 0.9659271240234375, 0.2588043212890625, -0.2588043212890625, 0.9659271240234375, 338.5,314.25) ">
+     transform="matrix( 0.9659271240234375, 0.2588043212890625, -0.2588043212890625, 0.9659271240234375, 338.5,314.25) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1, 0, 0, 1, 0,0) "
        id="g1932">
@@ -2813,7 +3200,9 @@
   </g>
   <g
      id="armRight_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL"
-     transform="matrix( -0.9659271240234375, 0.2588043212890625, 0.233551025390625, 0.8716888427734375, 377.6,289.35) ">
+     transform="matrix( -0.9659271240234375, 0.2588043212890625, 0.233551025390625, 0.8716888427734375, 377.6,289.35) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 0.9970703125, 0, 0, 1.006103515625, -0.4,-0.05) "
        id="g1937">
@@ -2824,7 +3213,9 @@
   </g>
   <g
      id="handRight_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL"
-     transform="matrix( -0.9659271240234375, 0.2588043212890625, 0.2588043212890625, 0.9659271240234375, 382.9,314.5) ">
+     transform="matrix( -0.9659271240234375, 0.2588043212890625, 0.2588043212890625, 0.9659271240234375, 382.9,314.5) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1, 0, 0, 1, 0,0) "
        id="g1942">
@@ -2835,7 +3226,9 @@
   </g>
   <g
      id="legLeft_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL"
-     transform="matrix( 1, 0, 0, 1, 350.75,313.85) ">
+     transform="matrix( 1, 0, 0, 1, 350.75,313.85) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1.0071868896484375, 0, 0, 0.9892425537109375, 0,0) "
        id="g1947">
@@ -2846,7 +3239,9 @@
   </g>
   <g
      id="legRight_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL"
-     transform="matrix( -1, 0, 0, 1, 371.9,313.85) ">
+     transform="matrix( -1, 0, 0, 1, 371.9,313.85) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1.0071868896484375, 0, 0, 0.9892425537109375, 0,0) "
        id="g1952">
@@ -2857,7 +3252,9 @@
   </g>
   <g
      transform="matrix( 1, 0, 0, 1, 361.35,304.15) "
-     id="g1959">
+     id="g1959"
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1, 0, 0, 1, 0,0) "
        id="g1957">
@@ -2868,7 +3265,9 @@
   </g>
   <g
      id="handRight_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL"
-     transform="matrix( -0.25616455078125, -0.9665679931640625, -0.9665679931640625, 0.25616455078125, 291.7,196) ">
+     transform="matrix( -0.25616455078125, -0.9665679931640625, -0.9665679931640625, 0.25616455078125, 291.7,196) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1, 0, 0, 1, 0,0) "
        id="g1963">
@@ -2879,7 +3278,9 @@
   </g>
   <g
      id="legLeft_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL"
-     transform="matrix( -1, 0, -0.2476806640625, 1, 430.75,313.85) ">
+     transform="matrix( -1, 0, -0.2476806640625, 1, 430.75,313.85) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1.0071868896484375, 0, 0, 0.9892425537109375, 0,0) "
        id="g1968">
@@ -2890,7 +3291,9 @@
   </g>
   <g
      id="legRight_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL"
-     transform="matrix( -1, 0, 0.1083526611328125, 1, 451.9,313.85) ">
+     transform="matrix( -1, 0, 0.1083526611328125, 1, 451.9,313.85) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1.0071868896484375, 0, 0, 0.9892425537109375, 0,0) "
        id="g1973">
@@ -2901,7 +3304,9 @@
   </g>
   <g
      id="body_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL"
-     transform="matrix( 1, 0, 0, 1, 441.35,305.15) ">
+     transform="matrix( 1, 0, 0, 1, 441.35,305.15) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1.0129852294921875, 0, 0, 1.0081329345703125, 0.5,0.5) "
        id="g1978">
@@ -2912,7 +3317,9 @@
   </g>
   <g
      id="armLeft_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL"
-     transform="matrix( 0.9660186767578125, 0.2584228515625, -0.23321533203125, 0.87176513671875, 424.55,289.35) ">
+     transform="matrix( 0.9660186767578125, 0.2584228515625, -0.23321533203125, 0.87176513671875, 424.55,289.35) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 0.9970703125, 0, 0, 1.006103515625, -0.4,-0.05) "
        id="g1983">
@@ -2923,7 +3330,9 @@
   </g>
   <g
      id="handLeft_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL"
-     transform="matrix( 0.965911865234375, -0.258819580078125, 0.258819580078125, 0.965911865234375, 422.3,310.3) ">
+     transform="matrix( 0.965911865234375, -0.258819580078125, 0.258819580078125, 0.965911865234375, 422.3,310.3) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1, 0, 0, 1, 0,0) "
        id="g1988">
@@ -2934,7 +3343,9 @@
   </g>
   <g
      id="legRight_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL"
-     transform="matrix( 0.942108154296875, -0.34771728515625, 0.2938079833984375, 0.9530029296875, 506.4,79.35) ">
+     transform="matrix( 0.942108154296875, -0.34771728515625, 0.2938079833984375, 0.9530029296875, 506.4,79.35) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1.0071868896484375, 0, 0, 0.9892425537109375, 0,0) "
        id="g1993">
@@ -2945,7 +3356,9 @@
   </g>
   <g
      id="legLeft_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL"
-     transform="matrix( -0.9604034423828125, -0.2794342041015625, -0.1309356689453125, 1.00311279296875, 533.95,85.65) ">
+     transform="matrix( -0.9604034423828125, -0.2794342041015625, -0.1309356689453125, 1.00311279296875, 533.95,85.65) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1.0071868896484375, 0, 0, 0.9892425537109375, 0,0) "
        id="g1998">
@@ -2956,7 +3369,9 @@
   </g>
   <g
      id="legLeft_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL"
-     transform="matrix( 0.8357696533203125, 0.5355377197265625, -0.6060791015625, 0.8081207275390625, 669.3,91.85) ">
+     transform="matrix( 0.8357696533203125, 0.5355377197265625, -0.6060791015625, 0.8081207275390625, 669.3,91.85) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1.0071868896484375, 0, 0, 0.9892425537109375, 0,0) "
        id="g2003">
@@ -2967,7 +3382,9 @@
   </g>
   <g
      id="legRight_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL"
-     transform="matrix( -0.8170928955078125, 0.59710693359375, 0.6360321044921875, 0.759033203125, 694.45,91.85) ">
+     transform="matrix( -0.8170928955078125, 0.59710693359375, 0.6360321044921875, 0.759033203125, 694.45,91.85) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1.0071868896484375, 0, 0, 0.9892425537109375, 0,0) "
        id="g2008">
@@ -2978,7 +3395,9 @@
   </g>
   <g
      transform="matrix( 0.9996185302734375, 0.0266265869140625, -0.0266265869140625, 0.9996185302734375, 273.7,177.55) "
-     id="g2027">
+     id="g2027"
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1, 0, 0, 1, 0,0) "
        id="g2013">
@@ -3010,7 +3429,9 @@
   </g>
   <g
      id="armLeft_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL"
-     transform="matrix( 0.65667724609375, -0.7541656494140625, 0.7541656494140625, 0.65667724609375, 261.4,180.9) ">
+     transform="matrix( 0.65667724609375, -0.7541656494140625, 0.7541656494140625, 0.65667724609375, 261.4,180.9) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 0.9970703125, 0, 0, 1.006103515625, -0.4,-0.05) "
        id="g2031">
@@ -3021,7 +3442,9 @@
   </g>
   <g
      id="handLeft_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL"
-     transform="matrix( 0.4999847412109375, -0.8660125732421875, 0.8660125732421875, 0.4999847412109375, 282.65,195.8) ">
+     transform="matrix( 0.4999847412109375, -0.8660125732421875, 0.8660125732421875, 0.4999847412109375, 282.65,195.8) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1, 0, 0, 1, 0,0) "
        id="g2036">
@@ -3075,7 +3498,9 @@
   </g>
   <g
      transform="matrix( 0.9969329833984375, 0.0782470703125, -0.0782470703125, 0.9969329833984375, 204.7,62.55) "
-     id="g2079">
+     id="g2079"
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1, 0, 0, 1, 0,0) "
        id="g2065">
@@ -3106,40 +3531,10 @@
     </g>
   </g>
   <g
-     transform="matrix( 0.9969329833984375, 0.0782470703125, -0.0782470703125, 0.9969329833984375, 360.75,60.2) "
-     id="g2097">
-    <g
-       transform="matrix( 1, 0, 0, 1, 0,0) "
-       id="g2083">
-      <use
-         xlink:href="#Symbol_16_0_Layer0_0_FILL"
-         id="use2081" />
-    </g>
-    <g
-       transform="matrix( 1, 0, 0, 1, 0,0) "
-       id="g2087">
-      <use
-         xlink:href="#Symbol_16_0_Layer0_1_FILL"
-         id="use2085" />
-    </g>
-    <g
-       transform="matrix( 1, 0, 0, 1, 0,0) "
-       id="g2091">
-      <use
-         xlink:href="#Symbol_16_0_Layer0_1_MEMBER_0_FILL"
-         id="use2089" />
-    </g>
-    <g
-       transform="matrix( 1, 0, 0, 1, 0,0) "
-       id="g2095">
-      <use
-         xlink:href="#Symbol_16_0_Layer0_2_FILL"
-         id="use2093" />
-    </g>
-  </g>
-  <g
      transform="matrix( -0.99658203125, -0.0825958251953125, -0.0825958251953125, 0.99658203125, 521.1,62.6) "
-     id="g2107">
+     id="g2107"
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1, 0, 0, 1, 0,0) "
        id="g2101">
@@ -3156,40 +3551,67 @@
     </g>
   </g>
   <g
-     transform="matrix( 0.9965667724609375, 0.0825958251953125, -0.0825958251953125, 0.9965667724609375, 281.35,77.4) "
-     id="g2125">
+     transform="matrix(0.99656677,0.08259583,-0.08259583,0.99656677,281.45604,77.451411)"
+     id="g2125"
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
-       transform="matrix( 1, 0, 0, 1, 0,0) "
+       id="g11984"
+       transform="translate(77.595712,-23.7353)">
+      <use
+         id="use11982"
+         xlink:href="#Symbol_15_0_Layer0_0_FILL"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
+    </g>
+    <g
        id="g2111">
       <use
          xlink:href="#Symbol_15_0_Layer0_0_FILL"
-         id="use2109" />
+         id="use2109"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
     </g>
     <g
-       transform="matrix( 1, 0, 0, 1, 0,0) "
        id="g2115">
       <use
          xlink:href="#Symbol_15_0_Layer0_1_FILL"
-         id="use2113" />
+         id="use2113"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
     </g>
     <g
-       transform="matrix( 1, 0, 0, 1, 0,0) "
        id="g2119">
       <use
          xlink:href="#Symbol_15_0_Layer0_1_MEMBER_0_FILL"
-         id="use2117" />
+         id="use2117"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
     </g>
     <g
-       transform="matrix( 1, 0, 0, 1, 0,0) "
        id="g2123">
       <use
          xlink:href="#Symbol_15_0_Layer0_2_FILL"
-         id="use2121" />
+         id="use2121"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
     </g>
   </g>
   <g
      transform="matrix( 0.9996185302734375, 0.0266265869140625, -0.0266265869140625, 0.9996185302734375, 189.05,177.55) "
-     id="g2143">
+     id="g2143"
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1, 0, 0, 1, 0,0) "
        id="g2129">
@@ -3221,7 +3643,9 @@
   </g>
   <g
      transform="matrix( 0.9996185302734375, 0.0266265869140625, -0.0266265869140625, 0.9996185302734375, 513.9,175) "
-     id="g2161">
+     id="g2161"
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1, 0, 0, 1, 0,0) "
        id="g2147">
@@ -3253,7 +3677,9 @@
   </g>
   <g
      transform="matrix( 0.9996185302734375, 0.0266265869140625, -0.0266265869140625, 0.9996185302734375, 599.05,170) "
-     id="g2179">
+     id="g2179"
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1, 0, 0, 1, 0,0) "
        id="g2165">
@@ -3285,7 +3711,9 @@
   </g>
   <g
      transform="matrix( 0.9998931884765625, -0.012420654296875, 0.012420654296875, 0.9998931884765625, 679.4,170) "
-     id="g2197">
+     id="g2197"
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1, 0, 0, 1, 0,0) "
        id="g2183">
@@ -3317,7 +3745,9 @@
   </g>
   <g
      transform="matrix( 0.9996185302734375, 0.0266265869140625, -0.0266265869140625, 0.9996185302734375, 439.95,286.9) "
-     id="g2215">
+     id="g2215"
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1, 0, 0, 1, 0,0) "
        id="g2201">
@@ -3349,7 +3779,9 @@
   </g>
   <g
      transform="matrix( 0.990966796875, -0.133819580078125, 0.133819580078125, 0.990966796875, 203.2,278.4) "
-     id="g2233">
+     id="g2233"
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1, 0, 0, 1, 0,0) "
        id="g2219">
@@ -3381,7 +3813,9 @@
   </g>
   <g
      transform="matrix( 0.9857025146484375, -0.168243408203125, 0.168243408203125, 0.9857025146484375, 111.7,294.95) "
-     id="g2251">
+     id="g2251"
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1, 0, 0, 1, 0,0) "
        id="g2237">
@@ -3413,7 +3847,9 @@
   </g>
   <g
      transform="matrix( 1, 0, 0, 1, 360.6,287.65) "
-     id="g2261">
+     id="g2261"
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1, 0, 0, 1, 0,0) "
        id="g2255">
@@ -3431,7 +3867,9 @@
   </g>
   <g
      id="armLeft_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL"
-     transform="matrix( -0.86602783203125, 0.4999847412109375, -0.4110107421875, -1.1675262451171875, 420.55,57.15) ">
+     transform="matrix( -0.86602783203125, 0.4999847412109375, -0.4110107421875, -1.1675262451171875, 420.55,57.15) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 0.9970703125, 0, 0, 1.006103515625, -0.4,-0.05) "
        id="g2265">
@@ -3442,7 +3880,9 @@
   </g>
   <g
      id="handLeft_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL"
-     transform="matrix( 0.965911865234375, -0.2587890625, -0.2587890625, -0.9658966064453125, 419.05,23.6) ">
+     transform="matrix( 0.965911865234375, -0.2587890625, -0.2587890625, -0.9658966064453125, 419.05,23.6) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1, 0, 0, 1, 0,0) "
        id="g2270">
@@ -3453,7 +3893,9 @@
   </g>
   <g
      id="armRight_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL"
-     transform="matrix( 0.6365509033203125, 0.7712249755859375, 0.5618133544921875, -0.463714599609375, 453.8,62.15) ">
+     transform="matrix( 0.6365509033203125, 0.7712249755859375, 0.5618133544921875, -0.463714599609375, 453.8,62.15) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 0.9970703125, 0, 0, 1.006103515625, -0.4,-0.05) "
        id="g2275">
@@ -3464,7 +3906,9 @@
   </g>
   <g
      id="handRight_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL"
-     transform="matrix( -0.9999237060546875, 0.0097808837890625, -0.0097808837890625, -0.9999237060546875, 457.6,44.1) ">
+     transform="matrix( -0.9999237060546875, 0.0097808837890625, -0.0097808837890625, -0.9999237060546875, 457.6,44.1) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1, 0, 0, 1, 0,0) "
        id="g2280">
@@ -3475,7 +3919,9 @@
   </g>
   <g
      transform="matrix( -0.9870147705078125, 0.158935546875, 0, 1, 438.65,78.35) "
-     id="g2287">
+     id="g2287"
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1, 0, 0, 1, 0,0) "
        id="g2285">
@@ -3486,7 +3932,9 @@
   </g>
   <g
      id="legRight_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL"
-     transform="matrix( -0.942108154296875, -0.34771728515625, -0.2938079833984375, 0.9530029296875, 453.6,79.35) ">
+     transform="matrix( -0.942108154296875, -0.34771728515625, -0.2938079833984375, 0.9530029296875, 453.6,79.35) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1.0071868896484375, 0, 0, 0.9892425537109375, 0,0) "
        id="g2291">
@@ -3497,7 +3945,9 @@
   </g>
   <g
      id="legLeft_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL_FL"
-     transform="matrix( 0.9604034423828125, -0.2794342041015625, 0.1309356689453125, 1.00311279296875, 426.05,85.65) ">
+     transform="matrix( 0.9604034423828125, -0.2794342041015625, 0.1309356689453125, 1.00311279296875, 426.05,85.65) "
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1.0071868896484375, 0, 0, 0.9892425537109375, 0,0) "
        id="g2296">
@@ -3508,7 +3958,9 @@
   </g>
   <g
      transform="matrix( 0.9965667724609375, -0.0825958251953125, 0.0825958251953125, 0.9965667724609375, 438.9,62.6) "
-     id="g2307">
+     id="g2307"
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <g
        transform="matrix( 1, 0, 0, 1, 0,0) "
        id="g2301">
@@ -3522,6 +3974,73 @@
       <use
          xlink:href="#Symbol_17_0_Layer0_1_FILL"
          id="use2303" />
+    </g>
+  </g>
+  <g
+     transform="matrix( 0.9969329833984375, 0.0782470703125, -0.0782470703125, 0.9969329833984375, 360.75,60.2) "
+     id="g2097"
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
+    <g
+       id="g2083"
+       transform="matrix( 1, 0, 0, 1, 0,0) ">
+      <use
+         xlink:href="#Symbol_16_0_Layer0_0_FILL"
+         id="use2081" />
+    </g>
+    <g
+       transform="translate(-2.1346721,-49.221541)"
+       id="g2087">
+      <g
+         id="use1734"
+         transform="translate(0.83844711,51.812982)">
+        <path
+           id="path11960"
+           d="m 3.9,-8.95 -0.05,-2.4 c -0.6,-0.2 -1.25,-0.3 -1.95,-0.3 -1.63333333,0 -3.05,0.6 -4.25,1.8 -0.3,0.2666667 -0.55,0.5666667 -0.75,0.9 h 7"
+           inkscape:connector-curvature="0"
+           style="fill:#ffffff;stroke:none"
+           sodipodi:nodetypes="ccsccc" />
+        <path
+           id="path11964"
+           d="M 7.35,-8.2 Q 6.9,-9.1 6.15,-9.85 L 6.1,-9.9 q -1,-1 -2.25,-1.45 l 0.05,2.4 h -7 q -0.25,0.35 -0.45,0.75 -0.25,0.45 -0.35,0.95 -0.1,0.35 0,0.6 0.1,0.35 0.4,0.5 0.25,0.2 0.55,0.2 h 9.7 q 0.3,0 0.6,-0.2 Q 7.6,-6.3 7.7,-6.65 7.8,-6.9 7.75,-7.25 7.6,-7.75 7.35,-8.2 Z"
+           inkscape:connector-curvature="0"
+           style="fill:#7f7058;stroke:none" />
+      </g>
+    </g>
+    <g
+       id="g2095"
+       transform="matrix( 1, 0, 0, 1, 0,0) ">
+      <use
+         xlink:href="#Symbol_16_0_Layer0_2_FILL"
+         id="use2093" />
+    </g>
+    <g
+       id="g1725"
+       transform="translate(-0.38990998,-1.8214876)">
+      <path
+         inkscape:connector-curvature="0"
+         id="path1719"
+         d="m -12.180692,-18.82177 9.8201866,7.131489"
+         style="fill:#7f7058;fill-opacity:1;stroke:#7f7058;stroke-width:2.5133884;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path1721"
+         d="m -2.6184221,-19.695764 -9.2658359,9.370345"
+         style="fill:#7f7058;fill-opacity:1;stroke:#7f7058;stroke-width:2.5133884;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       transform="translate(15.450181,-2.9412687)"
+       id="g11990">
+      <path
+         style="fill:#7f7058;fill-opacity:1;stroke:#7f7058;stroke-width:2.5133884;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m -12.180692,-18.82177 9.8201866,7.131489"
+         id="path11986"
+         inkscape:connector-curvature="0" />
+      <path
+         style="fill:#7f7058;fill-opacity:1;stroke:#7f7058;stroke-width:2.5133884;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m -2.6184221,-19.695764 -9.2658359,9.370345"
+         id="path11988"
+         inkscape:connector-curvature="0" />
     </g>
   </g>
 </svg>

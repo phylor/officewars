@@ -26,10 +26,14 @@ class OfficeWarsWindow < Gosu::Window
     @end_round_button = Ui.new(self, @width - 173, @height - 52, 150, 50)
   end
 
-  def needs_cursor?; true; end
+  def needs_cursor?
+    true
+  end
 
   def update
     @map.player.move
+
+    @state = :menu if @map&.enemy&.dead?
   end
 
   def draw
@@ -44,7 +48,7 @@ class OfficeWarsWindow < Gosu::Window
     when :practice
       @map.draw
       @map.player&.draw
-      @map.enemy&.draw if @map.enemy&.alive?
+      @map.enemy&.draw
       @end_round_button.vertical do |layout|
         layout.button('End round', text_offset: 20)
       end
